@@ -15,3 +15,6 @@ int main() {
 
     cout << kadanes_algorithm(a,3);
 }
+//need to implement 2d kadane
+//need to implement 2d prefix sum also .
+//problem on leetcode
