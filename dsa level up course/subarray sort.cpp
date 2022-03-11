@@ -44,3 +44,9 @@ int main() {
     cout << ans.first << " " << ans.second << endl;
     return 0;
 }
+
+
+//find first disorder
+//find last disorder
+//check for the largest element in this range . and smallest element in this range.
+//
