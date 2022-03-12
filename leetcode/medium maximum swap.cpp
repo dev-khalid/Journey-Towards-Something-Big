@@ -4,7 +4,7 @@ using namespace std;
 int toNum(char c) {
     return c - 48;
 }
-
+/* Non optimal approach
 int maximumSwap(int num) {
     if(num<=10) {
         return num;
@@ -45,10 +45,48 @@ int maximumSwap(int num) {
     cout << stoi(s) << endl;
 
     return 0;
-    */
     return stoi(all.at(all.size()-1));
 }
+*/
+
+int maximumSwap(int num) {
+    string s = to_string(num);
+    //find the mx out of the array
+    char mx = s[0];
+    int maxPos = 0;
+    int n = s.size();
+    for(int i = 0; i < n; i++){
+        if(mx<s[i]) {
+            mx = s[i];
+            maxPos = i;
+        }
+    }
+    //now check if we need to skip something or not .
+    int escap = 0;
+    bool changed = false;
+    for(int i = 0; i < n; i++) {
+        if(mx!=s[i]) {
+            escap = i;
+            //break it here immediately and go for next max position finding on the arr
+            mx='0';//setting this to the lowest number
+            for(;i<n; i++) {
+                //from here find the maxPos once again
+                if(mx<s[i]) {
+                    mx = s[i];
+                    maxPos = i;
+                    changed = true;
+                }
+            }
+            break;
+        }
+    }
+    if(changed)
+        swap(s[escap],s[maxPos]);
+    else
+        swap(s[0],s[maxPos]);
+    return stoi(s);
+}
 int main() {
-    int n = 2000;
+    int n = 20;
     cout << maximumSwap(n);
 }
