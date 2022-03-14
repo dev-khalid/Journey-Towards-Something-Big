@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 pair<int,int> longestUniqueSubstring(string s) {
-    map<char,int> hsh; //this will be used to store the last occurance of a number with + 1
+    unordered_map<char,int> hsh; //this will be used to store the last occurance of a number with + 1
     int n = s.size();
     int mx = 0,starting=0;
     pair<int,int> ans = {0,0};
@@ -43,3 +43,5 @@ int main() {
     x = longestUniqueSubstring(s);
     cout << x.first << " " << x.second;
 }
+
+
