@@ -19,6 +19,7 @@ int main()
         for(int i = 0; i < n; i++)
         {
             cin >> arr[i];
+            fr[arr[i]]++;
         }
         for(int i = 0; i < q; i++)
         {
@@ -34,32 +35,50 @@ int main()
         int j = 0,i=0;
         while(j<2*q && i < n)
         {
+            if(arr[i]<query[j] && fr[query[j]]==0)
+            {
+                rightDp[query[j]] = i;
+            }
             if(arr[i]<=query[j])
             {
                 rightDp[query[j]] = i;
+
                 i++;
             }
             else
             {
+
                 j++;
+
             }
         }
         j = 2*q-1,i=n-1;
         while(j>=0 && i>= 0)
         {
-             if(arr[i]>=query[j]) {
+            if(arr[i]>=query[j])   //8 >= 7 true leftDp[7] = 4
+            {
                 leftDp[query[j]] = i;
                 i--;
-             } else {
+            }
+            else
+            {
                 //current element is less then query[j]  move the query to left
                 j--;
-             }
+            }
         }
 
+        //jesob element exist kore na tader same same query porle 0 ans asbe ..
+
         cout << "Case " << cse++ << ":\n";
-        for(int i = 0; i < q; i++) {
+        for(int i = 0; i < q; i++)
+        {
             ll qi = queries[i].first, qj = queries[i].second;
-            cout << rightDp[qj] - leftDp[qi] << "\n" ; //this will not be working for an element that does not exist
+            if(qi==qj && fr[qi]==0)
+            {
+                cout << 0 << "\n";
+            }
+            else
+                cout << rightDp[qj] - leftDp[qi] + 1 << "\n" ; //this will not be working for an element that does not exist
 
         }
     }
