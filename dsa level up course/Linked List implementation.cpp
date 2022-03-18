@@ -15,6 +15,14 @@ public:
 
 };
 
+/*
+I have done the following Programs :
+    1.Reverse a linked list
+    2.Merge two sorted list
+    3.Merge k sorted list using Min Heap & Linked List
+    4.Hare & Tortoise method
+*/
+
 void insertAtHead (Node * &head,int data)
 {
     if(head == NULL)
