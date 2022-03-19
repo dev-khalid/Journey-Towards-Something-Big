@@ -10,17 +10,15 @@ public:
     Node(int data)
     {
         this->data = data;
-        next = NULL; //TODO : make this like as this.next = null;
+        next = NULL;
     }
 
 };
 
 /*
 Need to code followings:
-    1.Reverse a linked list
     2.Merge two sorted list
     3.Merge k sorted list using Min Heap & Linked List
-    4.Hare & Tortoise method (slow fast pointer - mid node of a ll)
     5.Reverse K Groups
     6.Copy list with Random Pointers
 */
@@ -56,11 +54,13 @@ Node* reverseLL(Node * head)
     head->next = NULL;
     return sHead;
 }
-Node* reverseLLIterative(Node * head) {
+Node* reverseLLIterative(Node * head)
+{
     Node * prev = NULL;
     Node * curr = head;
     Node * temp;
-    while(true) {
+    while(true)
+    {
         temp = curr->next;
         curr->next = prev;
         prev = curr;
@@ -68,18 +68,95 @@ Node* reverseLLIterative(Node * head) {
         curr = temp;
 
 
-   }
-   return curr;
+    }
+    return curr;
+}
+//slow fast pointer - mid of a node
+Node* midOfLL(Node* s,Node * f)
+{
+    if(f->next == NULL || f->next->next==NULL || f == NULL)
+
+        return s;
+
+    return midOfLL(s->next,f->next->next);
+}
+
+//merge two sorted list
+Node * mergeHelper(Node * p1,Node * p2)
+{
+    if(p1==NULL || p2==NULL)
+    {
+        return p1==NULL ? p2 : p1;
+    }
+
+    Node * d = NULL;
+    Node * s = NULL;
+    if(p2->data > p1->data)
+    {
+        d = p1;
+        p1=p1->next;
+    }
+    else
+    {
+        d = p2;
+        p2=p2->next;
+    }
+    s = d;
+    while(1)
+    {
+        if(p1==NULL)
+        {
+            d->next = p2;
+            break;
+        }
+        if(p2==NULL)
+        {
+            d->next = p1;
+            break;
+        }
+        if(p2->data > p1->data)
+        {
+            d->next = p1;
+            d = p1;
+            p1=p1->next;
+        }
+        else
+        {
+            d->next = p2;
+            d = p2;
+            p2=p2->next;
+        }
+
+    }
+    return s;
+}
+Node * mergeTwoSortedLL(Node * head)
+{
+    //now need to divide them in two parts ...
+    //Node * mid = midOfLL(head,head);
+
+    return NULL;
+
 }
 
 //need to implement k sorted list & merge two sorted list
 int main()
 {
-    Node* head = NULL; //pointing this to nothing ...
-    insertAtHead(head,5);
-    insertAtHead(head,10);
-    insertAtHead(head,50);
-    insertAtHead(head,45);
-    head = reverseLLIterative(head);
-    printLL(head);
+    Node* head1 = NULL;
+    insertAtHead(head1,50);
+    insertAtHead(head1,10);
+    insertAtHead(head1,10);
+    insertAtHead(head1,5);
+    insertAtHead(head1,5);
+    insertAtHead(head1,5);
+    insertAtHead(head1,5);
+    insertAtHead(head1,5);
+    Node * head2 = NULL;
+    insertAtHead(head2,75);
+    insertAtHead(head2,55);
+    insertAtHead(head2,45);
+    insertAtHead(head2,45);
+    insertAtHead(head2,45);
+    Node * h = mergeHelper(head1,head2);
+    printLL(h);
 }
