@@ -16,11 +16,13 @@ public:
 };
 
 /*
-I have done the following Programs :
+Need to code followings:
     1.Reverse a linked list
     2.Merge two sorted list
     3.Merge k sorted list using Min Heap & Linked List
-    4.Hare & Tortoise method
+    4.Hare & Tortoise method (slow fast pointer - mid node of a ll)
+    5.Reverse K Groups
+    6.Copy list with Random Pointers
 */
 
 void insertAtHead (Node * &head,int data)
