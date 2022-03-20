@@ -130,11 +130,10 @@ Node * mergeHelper(Node * p1,Node * p2)
     }
     return s;
 }
-Node * mergeTwoSortedLL(Node * head)
+Node * mergeSort(Node * head)
 {
-    //now need to divide them in two parts ...
-    //Node * mid = midOfLL(head,head);
-
+    //divide them in parts ...
+    //join them - joining method is ready need to divide this only .
     return NULL;
 
 }
