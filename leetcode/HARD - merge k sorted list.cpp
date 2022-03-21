@@ -111,6 +111,24 @@ ListNode* mergeKLists(vector<ListNode*>& lists)
     }
     return mergeRec(lists,0,k-1);
 }
+ListNode* detectCycle(ListNode * head) {
+    map<ListNode*,int> visited;
+    if(head==NULL) {
+        return -1;
+    }
+    int cnt = 0;
+    while(1) {
+        if(head==NULL) {
+            return -1;
+        }
+        if(visited[head]!=0) {
+            return visited[head]-1;
+        } else {
+            visited[head] = ++cnt;
+            head = head->next;
+        }
+    }
+}
 
 int main()
 {
