@@ -63,24 +63,31 @@ int main()
         string s;
         cin >> s;
         int cnt = 0;
-        while(s.size()) {
-            int b = bb(s);
-
-            if( b!=-1) {
+        int p = 0;
+        while(p+2<=n) {
+            if(s[p]=='(') {
                 cnt++;
-                s = s.substr(b,n);
-                cout << s << endl;
-                continue;
+                p+=2;
+            }else {
+                int q = p;
+                p++;
+                while(p<n&&s[p]=='(')p++;
+                if(p==n) {
+                    p = q;
+                    break;
+                }
+                p++;
+                cnt++;
             }
-            int p = CheckStr(s);
-             if(p!=-1) {
-                cnt++;
-                s = s.substr( p,n);
-             }
-            if(b==-1&&p==-1)
-                break;
         }
-        cout << cnt << " " << s.size() << endl;
+        cout << cnt << " " << n-p << endl;
 
     }
 }
+
+
+
+
+
+
+
