@@ -18,59 +18,32 @@ int main()
             if(c=='1') ones++;
             else zeros++;
         }
-        if(zeros>=ones)
-        {
-            for(int i = 0; i < n; i++) {
-                if(i&1 && ones) {
-                    printf("1");
-                    ones--;
-                } else {
-                    printf("0");
-                }
-            }
-            printf("\n");
-            for(int i = 0; i < n; i++) {
-                if(zeros) {
-                    printf("0");
-                    zeros--;
-                } else {
-                    printf("1");
-                }
-            }
-            printf("\n");
+        int x = max(zeros,ones);
+        int y = min(zeros,ones);
+        int seg;
+        if(y&1) {
+            seg = x/(y+1);
         }
-        else
-        {
-            for(int i = 0; i < n; i++) {
-                if(i&1 && zeros) {
-                    printf("0");
-                    zeros--;
-                } else {
-                    printf("1");
-                }
+        else {
+            //y is even
+            if(x&1){
+                seg = ceil(x*1.0/(y+1));
+            } else {
+                seg = x/(y+1);
             }
-            printf("\n");
-            for(int i = 0; i < n; i++) {
-                if(ones) {
-                    ones--;
-                    printf("1");
-                } else {
-                    printf("0");
-                }
-            }
-            printf("\n");
         }
+        //now as i got my segment i need to find a filling strategy .
+
     }
 }
 /*
-
+the trick is divide ones properly in stringOne
+and at stringTwo just keep all the elements segregated .
 Input
 
-T
+4
 6
 000001
-001000
-100000
 
 6
 001111
@@ -78,7 +51,25 @@ T
 6
 000111
 
+6
+111110
 
+15
+000001000001001
 
 Output
 
+001000
+100000
+
+101011
+111100
+
+010101
+000111
+
+101111
+111110
+
+
+*/
