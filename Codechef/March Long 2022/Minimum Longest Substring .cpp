@@ -33,23 +33,19 @@ int main()
 
 
         int seg;
-        if(y&1)
-        {
-            seg = x/(y+1);
-        }
-        else
-        {
-            //y is even
-            if(x&1)
-            {
-                seg = ceil(x*1.0/(y+1));
-            }
-            else
-            {
-                seg = x/(y+1);
+
+        seg = x/(y+1);
+        while(1) {
+            int rightProblem = x-y*seg;
+            if(rightProblem > seg) {
+                seg++;
+            } else if(rightProblem<seg) {
+                seg--;
+                break;
+            } else {
+                break;
             }
         }
-        //check if y*2>=x ?
         if(y*2>=x)
         {
             //put extra least elements in front line ..
@@ -109,20 +105,31 @@ int main()
     }
 }
 /*
-the trick is divide ones properly in stringOne
-and at stringTwo just keep all the elements segregated .
-Input
 
+big range data
+x==y
+20
+00000000001111111111
 
-3
-23
-00000000000000001111111
+x<y
+21
+000000001111111111111
+
+x>y
+21
+000000000000111111111
+
+x=2*y
+15
+000000000011111
+
+x>2*y
+20
+00000000000000011111
+
+x odd and y even
 17
-00000000011111111
-17
-00000000001111111 -- found a mistake .
-
-
-
-should change my thinking process . but not more for today .
+00000000000111111
+16
+0000000000111111
 */
