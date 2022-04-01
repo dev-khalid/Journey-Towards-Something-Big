@@ -13,47 +13,30 @@ int main()
          cin >> n;
          string s;
          cin >> s;
-         int cnt = 0;
-         for(int i = 1; i < n; i++ ) {
-            if(s[i]=='+') {
-                if(s[i-1]=='-') {
-                    cnt++;
-                }
+         int plus = 0, minus = 0;
+         vector<int> p(n+1);
+         vector<int> m(n+1);
+         for(int i = 0; i < n; i++) {
+            char el = s[i];
+            if(el=='+') {
+                plus++;
             } else {
-                //-
-                if(i-1>0) {
-                   if(s[i-1]=='+') {
-                    cnt++;
-                   }
-                }
-                if(i-2>0) {
-                    if(s[i-2]=='-'&&s[i-1]=='-') {
-                        cnt++;
-                    }
+                minus++;
+            }
+            p[i+1] = plus;
+            m[i+1] = minus;
+         }
+         int ans = 0;
+         for(int i = 1; i <= n; i++) {
+            for(int j = i+1; j <= n; j++) {
+                plus = p[j]-p[i-1];
+                minus = m[j]-m[i-1];
+                if(minus>=plus && (minus-plus)%3==0) {
+                    ans++;
                 }
             }
          }
-         for(int i = n-2; i >=0 ; i-- ) {
-            if(s[i]=='+') {
-                if(s[i+1]=='-') {
-                    cnt++;
-                }
-            } else {
-                //-
-                if(i+1<n) {
-                   if(s[i+1]=='+') {
-                    cnt++;
-                   }
-                }
-                if(i+2<n) {
-                    if(s[i+2]=='-'&&s[i+1]=='-') {
-                        cnt++;
-                    }
-                }
-            }
-         }
-         //check if the array is balanced then the output should be cnt+1;
-         cout << cnt << endl;
+         cout << ans << endl;
 
     }
 }
