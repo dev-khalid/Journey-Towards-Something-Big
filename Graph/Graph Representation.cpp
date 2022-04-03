@@ -3,6 +3,7 @@ using namespace std;
 int main() {
     int n,m;//n-> number of nodes & m-> number of edges
     cin >> n >> m;
+
     int adjacencyMatrix[n+1][m+1];
     for(int i = 0; i < m; i++) {
         int u,v;
@@ -20,3 +21,6 @@ int main() {
         graph[v].push_back({u,wt});
     }
 }
+/**
+1.Number of connected components count in a graph . using bfs or dfs .
+*/
