@@ -9,7 +9,7 @@
 ✔✔✔https://codeforces.com/problemset/problem/1624/B
 ✔✔✔https://codeforces.com/problemset/problem/1642/B
 ✔✔✔https://codeforces.com/problemset/problem/1613/A
-https://codeforces.com/problemset/problem/1612/B
+✔✔✔https://codeforces.com/problemset/problem/1612/B
 https://codeforces.com/problemset/problem/1610/A
 https://codeforces.com/problemset/problem/1609/A
 https://codeforces.com/problemset/problem/1607/B
