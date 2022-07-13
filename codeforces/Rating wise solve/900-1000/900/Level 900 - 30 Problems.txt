@@ -3,7 +3,7 @@
 ✔✔✔https://codeforces.com/problemset/problem/1047/B
 ✔✔✔https://codeforces.com/problemset/problem/1697/B
 ✔✔✔https://codeforces.com/problemset/problem/1689/B
-https://codeforces.com/problemset/problem/1666/D
+✔✔✔https://codeforces.com/problemset/problem/1666/D
 https://codeforces.com/problemset/problem/1650/B
 https://codeforces.com/problemset/problem/1642/B
 https://codeforces.com/problemset/problem/1624/B
