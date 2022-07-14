@@ -10,7 +10,7 @@ Problems I need to solve:
 9. https://codeforces.com/problemset/problem/1713/A
 10. https://codeforces.com/problemset/problem/1712/B
 11. https://codeforces.com/problemset/problem/1711/A
-12. https://codeforces.com/problemset/problem/1709/B
+12. ✔✔✔ https://codeforces.com/problemset/problem/1709/B
 13. ✔✔✔ https://codeforces.com/problemset/problem/1709/A
 14. ✔✔✔ https://codeforces.com/problemset/problem/1708/A
 15. ✔✔✔ https://codeforces.com/problemset/problem/1706/A
