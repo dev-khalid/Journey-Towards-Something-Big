@@ -20,8 +20,8 @@ Problems I need to solve:
 19. https://codeforces.com/problemset/problem/1702/D
 20. https://codeforces.com/problemset/problem/1700/A
 21. https://codeforces.com/problemset/problem/1699/B
-22. https://codeforces.com/problemset/problem/1699/A
-23. https://codeforces.com/problemset/problem/1698/B
+22. ✔✔✔ https://codeforces.com/problemset/problem/1699/A
+23. ✔✔✔ https://codeforces.com/problemset/problem/1698/B
 24. ✔✔✔ https://codeforces.com/problemset/problem/1698/A
 25. ✔✔✔ https://codeforces.com/problemset/problem/1696/B
 27. ✔✔✔ https://codeforces.com/problemset/problem/1696/A
