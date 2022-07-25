@@ -9,31 +9,14 @@ public:
         int n = nums.size();
         int sum = 0;
         int cnt = 0;
-        int i = 0,j=0;
-        while(i<n || j<n)
-        {
-            if(sum==k)
-            {
-                cnt++;
-                cout << cnt << " " << i << " " << j << endl;
-                if(i<n)
-                    sum += nums[i++];
-                else
-                {
-                    sum-=nums[j++];
-                }
+        unordered_map<int,int> mp;
+        mp[sum]=1;
+        for(auto it: nums) {
+            sum+=it;
+            if(mp.find(sum-k)!=mp.end()) {
+                cnt+=mp[sum-k];
             }
-            else if(sum > k)
-            {
-                sum-=nums[j++];
-            }
-            else
-            {
-                if(i<n)
-                    sum+=nums[i++];
-                else
-                    break;
-            }
+            mp[sum]++;
         }
         return cnt;
     }
