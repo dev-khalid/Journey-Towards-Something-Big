@@ -1,4 +1,5 @@
 //source:- https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/
+
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& arr) {
@@ -17,3 +18,7 @@ public:
         return m;
     }
 };
+int main() {
+    Solution sol;
+
+}
