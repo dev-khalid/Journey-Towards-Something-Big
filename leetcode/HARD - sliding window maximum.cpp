@@ -7,24 +7,19 @@ class Solution
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k)
     {
-        queue<int> q;
+        deque<int> dq;
         vector<int> ans;
         int n = nums.size();
-        int last = nums[0];
-        q.push(last);
+        for(int i =0; i < n; i++) {
+            if(!dq.empty() && dq.front()== i-k) dq.pop_front();
 
-        for(int i = 0; i < k; i++) {
-            if(nums[i]<=last) {
-                q.push(nums[i]);
-                last = nums[i];
-            } else {
-                //we don't need previous elements. Safely remove those ele
-                while(!q.empty() || q.front()<= last) q.pop();
-                q.push(nums[i]);
-            }
+            while(!dq.empty() && nums[dq.back()] < nums[i]) dq.pop_back();
+
+            dq.push_back(i);
+            if(i>=k-1) ans.push_back(nums[dq.front()]);
+
         }
-
-
+        return ans;
     }
 };
 int main() {
