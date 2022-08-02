@@ -20,4 +20,4 @@ public:
         return ans;
     }
 };
-//beautiful and obvious solution
+//beautiful and obvious solution i had to try out
