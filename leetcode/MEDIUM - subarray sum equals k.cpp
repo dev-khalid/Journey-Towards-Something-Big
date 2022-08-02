@@ -9,6 +9,7 @@ public:
         int n = nums.size();
         int sum = 0;
         int cnt = 0;
+<<<<<<< HEAD
         int i = 0,j=0;
         if(k>=0)
         {
@@ -69,6 +70,16 @@ public:
                 }
             }
 
+=======
+        unordered_map<int,int> mp;
+        mp[sum]=1;
+        for(auto it: nums) {
+            sum+=it;
+            if(mp.find(sum-k)!=mp.end()) {
+                cnt+=mp[sum-k];
+            }
+            mp[sum]++;
+>>>>>>> 8e90a3d10122ae8b4e37f7391ff8d4f16f6a8681
         }
         return cnt;
     }
