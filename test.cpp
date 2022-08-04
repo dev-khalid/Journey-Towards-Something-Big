@@ -24,6 +24,15 @@ void preorder(TreeNode * node)
         preorder(node->right);
     }
 }
+
+int main() {
+    pair<int,int> x;
+    x = {1,2};
+    cout << x.second;
+}
+
+
+/*
 int main()
 {
 
@@ -78,3 +87,4 @@ int main()
 
     return 0;
 }
+*/
