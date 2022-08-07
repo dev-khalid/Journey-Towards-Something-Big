@@ -48,15 +48,19 @@ public:
         //removing some of the unnecessary elements from the front
         if(ans.size()==0) return ans;
         int j=0;
-        while(1)
+        while(j<i)
         {
             if(hash2.find(build_helper[j])==hash2.end())
                 hash1.erase(build_helper[j++]);
-            else {
-                if(hash1[build_helper[j]]>hash2[build_helper[j]]) {
+            else
+            {
+                if(hash1[build_helper[j]]>hash2[build_helper[j]])
+                {
                     hash1[build_helper[j]]--;
                     j++;
-                } else {
+                }
+                else
+                {
                     break;
                 }
             }
@@ -67,6 +71,7 @@ public:
         if(ans.size()>build_helper.size()) ans = build_helper;
 
         //now its started .
+        cout << i << endl;
         for(i=i+1; i<n; i++)
         {
             build_helper+=s[i];
@@ -76,31 +81,66 @@ public:
                 //start removing till the matched character
                 j = 0;
 
-                while(build_helper[j++]!=s[i])
+                while(j<build_helper.size())
                 {
-                    hash1.erase(build_helper[j-1]);
+                    if(build_helper[j]!=s[i] )
+                    {
+                        if( hash2.find(build_helper[j])==hash2.end())
+                        {
+                            hash1.erase(build_helper[j]);
+                        } else {
+                            hash1[build_helper[j]]--;
+                        }
+                        j++;
+                    }
+
+                    else
+                    {
+                        if(hash1[build_helper[j]]>hash2[build_helper[j]])
+                        {
+                            hash1[build_helper[j]]--;
+                            j++;
+                        }
+                        else
+                        {
+                            //as now they are equal so we can safely remove this one
+
+                            break;
+                        }
+                    }
                 } ;
 
-                build_helper = build_helper.substr(j);
-
+                //now need to erase from the beginning
+                build_helper = build_helper.substr(j+1);
 
                 //a little bit more optimization can be done
                 j=0;
-                while(hash2.find(build_helper[j])==hash2.end())
+                while(j<i)
                 {
-                    hash1.erase(build_helper[j]);
-                    j++;
+                    if(hash2.find(build_helper[j])==hash2.end())
+                        hash1.erase(build_helper[j++]);
+                    else
+                    {
+                        if(hash1[build_helper[j]]>hash2[build_helper[j]])
+                        {
+                            hash1[build_helper[j]]--;
+                            j++;
+                        }
+                        else
+                        {
+                            break;
+                        }
+                    }
 
                 };
-
                 build_helper = build_helper.substr(j);
-
 
             }
             else
             {
                 hash1[s[i]]++;
             }
+
             if(matched(hash1,hash2))
             {
                 if(ans.size()>build_helper.size())
