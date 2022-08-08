@@ -181,7 +181,7 @@ public:
         int n = s.size(),m = cnt;
         int i = 0,j = 0;
         string ans;
-        while(i<j && j < n)
+        while(i<=j && j < n)
         {
             if(hsh.find(s[j])!=hsh.end())
             {
@@ -191,15 +191,17 @@ public:
                     cnt--;
                 }
                 hsh[s[j]]--;
+
                 //now check if the count is zero or not ? if zero then this one is an ans .. find the optimized one
                 if(cnt==0)
                 {
                     //store the ans first
-                    if(ans.size()<j-i+1)
+                    if(ans.size()==0 || ans.size() > j-i+1)
                     {
+
                         ans = s.substr(i,j-i+1);//store the substring in the answer
                     }
-                    while(cnt==0 && i < j)
+                    while(i < j)
                     {
                         //current element is not needed for string t
                         if(hsh.find(s[i]) == hsh.end())
@@ -208,22 +210,28 @@ public:
                         }
                         else
                         {
-                            hsh[s[i]]++;
-                            if(hsh[s[i]]>0)
-                            {
-                                cnt++;
+                            //check if the current element is already greater than zero or not ?
+                            //if the current element is removable or not ?
+                            if(hsh[s[i]]<0) {
+                                //removable
+                                hsh[s[i]]++;
+                            } else {
+                                //removing this character will cause damage . to the ans
+                                break;
                             }
                             i++;
                         }
                     }
-                    if(ans.size()<j-i+1)
+                    if(ans.size()>j-i+1 && cnt==0)
                     {
                         ans = s.substr(i,j-i+1);//store the substring in the answer
                     }
 
                 }
             }
+            j++;
         }
+
         return ans;
     }
 };
