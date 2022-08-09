@@ -57,6 +57,20 @@ public:
         return dp[0];
     }
 };
+class Solution3
+{
+public:
+    int rob(vector<int>& nums)
+    {
+        int n = nums.size(),e_n,in=nums[0],e=0;
+        for(int i = 1; i < n; i++) {
+            e_n = max(in,e);
+            in = e +  nums[i];
+            e = e_n;
+        }
+        return max(in,e);
+    }
+};
 int main()
 {
     Solution sol;
