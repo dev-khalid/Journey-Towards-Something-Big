@@ -31,8 +31,30 @@ public:
     {
         memset(dp,-1,sizeof dp);
         func(nums,0,0);
-        cout << dp[0][0];
         return 0;
+    }
+};
+class Solution2
+{
+public:
+    int dp[1000];
+    int func(vector<int> nums,int pos) {
+        if(pos>=nums.size()) {
+            return 0;
+        }
+        if(dp[pos]!=-1) return dp[pos];
+        else{
+            int val1 = func(nums,pos+1);
+            int val2 = func(nums,pos+2)+nums[pos];
+            return dp[pos] = max(val1,val2);
+        }
+    }
+    int rob(vector<int>& nums)
+    {
+
+        memset(dp,-1,sizeof dp);
+        func(nums,0);
+        return dp[0];
     }
 };
 int main()
