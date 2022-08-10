@@ -19,6 +19,7 @@ void preorder(TreeNode * node)
 {
     if(node)
     {
+        printf("something");
         cout << node->data << " ";
         preorder(node->left);
         preorder(node->right);
