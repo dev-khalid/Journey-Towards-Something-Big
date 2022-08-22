@@ -37,7 +37,7 @@ Problems I need to solve:
 37. https://codeforces.com/problemset/problem/1674/B
 38. https://codeforces.com/problemset/problem/1674/C
 39. https://codeforces.com/problemset/problem/1675/A
-40. https://codeforces.com/problemset/problem/1675/A
+40.  
 41. https://codeforces.com/problemset/problem/1675/B
 42. https://codeforces.com/problemset/problem/1676/B
 43. https://codeforces.com/problemset/problem/1676/C
