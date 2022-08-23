@@ -41,7 +41,7 @@ Problems I need to solve:
 41. https://codeforces.com/problemset/problem/1675/B
 42. https://codeforces.com/problemset/problem/1676/B
 43. https://codeforces.com/problemset/problem/1676/C
-44. https://codeforces.com/problemset/problem/1676/D
+44. ✔✔✔ https://codeforces.com/problemset/problem/1676/D
 45. ✔✔✔ https://codeforces.com/problemset/problem/1679/A
 46. ✔✔✔ https://codeforces.com/problemset/problem/1681/B
 47. ✔✔✔ https://codeforces.com/problemset/problem/1684/A
