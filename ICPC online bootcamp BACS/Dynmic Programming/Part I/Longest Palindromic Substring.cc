@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std; 
-int dp[1005][1005] = {-1}; 
+int dp[1005][1005]; 
 int func(string s,int b,int e) { 
     if(b>=e) return 1; 
     if(dp[b][e] !=-1) 
