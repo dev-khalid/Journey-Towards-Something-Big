@@ -47,4 +47,4 @@ Problems I need to solve:
 47. https://codeforces.com/problemset/problem/1684/A
 48. https://codeforces.com/problemset/problem/1684/B
 49. ✔✔✔ https://codeforces.com/problemset/problem/1688/A 
-50. https://codeforces.com/contest/1688/problem/B
+50. ✔✔✔ https://codeforces.com/contest/1688/problem/B
