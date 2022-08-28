@@ -45,6 +45,6 @@ Problems I need to solve:
 45. https://codeforces.com/problemset/problem/1679/A
 46. https://codeforces.com/problemset/problem/1681/B
 47. https://codeforces.com/problemset/problem/1684/A
-48. https://codeforces.com/problemset/problem/1684/B
+48. ✔✔✔ https://codeforces.com/problemset/problem/1684/B
 49. ✔✔✔ https://codeforces.com/problemset/problem/1688/A 
 50. ✔✔✔ https://codeforces.com/contest/1688/problem/B
