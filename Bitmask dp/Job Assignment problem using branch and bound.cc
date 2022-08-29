@@ -26,7 +26,7 @@ public:
         }
         return mn;
     }
-    int jobAssignmentHelper(vector<vector<int>>  &dp,vector<vector<int>> &cost,int n,int level,int mask) {
+    int jobAssignmentHelper(vector<vector<int>> &dp,vector<vector<int>> &cost,int n,int level,int mask) {
         if(level==n) {
             return 0;
         }
