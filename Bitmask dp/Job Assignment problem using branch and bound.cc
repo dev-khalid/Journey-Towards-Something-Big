@@ -6,7 +6,7 @@ using namespace std;
 class Solution {
 public:
     //need to write a recursive function that serves the purpose .
-    int calculate(vector<vector<int>> & cost,vector<bool> done,int n,int level) {
+    int bruteForce(vector<vector<int>> & cost,vector<bool> done,int n,int level) {
         if(level == n-1 && n>1) {
             for(int i = 0; i < n; i++) {
                 if(!done[i]) {
@@ -20,12 +20,35 @@ public:
         for(int i = 0; i < n; i++) {
             if(!done[i]) {
                 done[i] = true;
-                mn = min(mn,calculate(cost,done,n,level+1)+cost[level][i]);
+                mn = min(mn,bruteForce(cost,done,n,level+1)+cost[level][i]);
                 done[i] = false;
             }
         }
         return mn;
     }
+    int jobAssignmentHelper(vector<vector<int>>  &dp,vector<vector<int>> &cost,int n,int level,int mask) {
+        if(level==n) {
+            return 0;
+        }
+        if(dp[level][mask]!=-1) return dp[level][mask];
+        int ans = INT_MAX;
+        //for each element on the mask try every possible solution
+        for(int i = 0; i < n; i++) {
+            if(mask & (1<<i)) {
+                //the i'th col or job is available.
+                ans = min(ans,jobAssignmentHelper(dp,cost,n,level+1,mask ^ (1<<i))+cost[level][i]);
+            }
+        }
+        return dp[level][mask] = ans;
+    }
+    int jobAssignmentDriver(vector<vector<int>> &cost) {
+
+        vector<vector<int>>  dp(21,vector<int>(1<<21,-1));
+
+        int n = cost[0].size();
+        return jobAssignmentHelper(dp,cost,n,0,(1<<n)-1);
+    }
+
 };
 
 int main() {
@@ -46,6 +69,7 @@ int main() {
     int n = cost[0].size();
     vector<bool> done(n,false);
     Solution sol;
-    cout << sol.calculate(cost,done,n,0);
+    //cout << sol.bruteForce(cost,done,n,0) << endl;
+    cout << sol.jobAssignmentDriver(cost);
 
 }
