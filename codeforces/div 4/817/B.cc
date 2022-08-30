@@ -24,18 +24,23 @@ int main()
             }
         }
 
-        bool flag = true;
+        bool flag = false;
         for(int j = 0; j < n; j++)
         {
             char c1,c2;
             c1 = grid[1][j],c2 = grid[0][j];
-            if(c1==c2) {
-                flag = false;
+            if(c1!=c2) {
+                flag = true;
                 break;
             }
 
         }
-        cout << (flag?"YES\n": "NO\n");
+        if(!flag) {
+            cout << "yes\n";
+
+        } else {
+            cout << "NO\n";
+        }
 
 
     }
