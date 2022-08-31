@@ -5,28 +5,19 @@ const int MOD = 1e9+7;
 int func(vector<int> &ways,vector<int> &coins,int x)
 {
     int n = coins.size();
-    for(int j = 0; j < n; j++)
+
+    sort(coins.begin(),coins.end());
+    vector<int> ways(x+1,0);
+    ways[0] = 1;
+    for(int i = 0; i < n; i++)
     {
-        if(coins[j]<=x)
-            ways[coins[j]] = 1;
-    }
-    for(int i = 1; i <= x ; i++)
-    {
-        for(int j = 0; j < n; j++)
+        for(int j = coins[i]; j <= x; j++)
         {
-            if(i+coins[j]>x)
-            {
-                break;
-            }
-            if(ways[i] && i + coins[j] <= x)
-            {
-                ways[i+coins[j]] = (ways[i+coins[j]] + 1) % MOD;
-            }
+            ways[j] += ways[j-coins[i]];
+            ways[j] %= MOD;
         }
     }
-    for(int i = 0; i <= x; i++) {
-        cout << i << " " << ways[i] << endl;
-    }
+
     return ways[x];
 }
 //need to maintain the distinct order
