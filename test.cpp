@@ -1,23 +1,26 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
 int main()
 {
-    int ara[]={1,2,3,4,1,2,3};
-    int result,i,n=7;
-
-    result=ara[0];
-
-    for(i=0; i<n; i++)
-
-
-    {
-        result=result^ara[i];
+    ll t;
+    cin >> t;
+    while(t--) {
+        ll n;
+        cin >> n;
+        vector<ll> v(n);
+        map<ll,ll> mp;
+        for(ll i = 0; i < n; i++) {
+            cin >> v[i];
+            mp[v[i]]=1;
+        }
+        sort(v.begin(),v.end());
+        if(mp[v[n-1]+v[n-2]+v[n-3]]==0) {
+            cout << "NO\n";
+        } else {
+            cout << "YES\n";
+        }
     }
-
-
-
-    printf("Result:%d\n", result);
-
-
     return 0;
 
 
