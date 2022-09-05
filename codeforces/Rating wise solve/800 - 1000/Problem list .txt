@@ -31,8 +31,8 @@ Problems I need to solve:
 31. https://codeforces.com/problemset/problem/1668/A
 32. https://codeforces.com/problemset/problem/1668/B
 33. https://codeforces.com/problemset/problem/1669/C
-34. https://codeforces.com/problemset/problem/1671/B
-35. https://codeforces.com/problemset/problem/1672/A
+34. ✔✔✔ https://codeforces.com/problemset/problem/1671/B
+35. ✔✔✔ https://codeforces.com/problemset/problem/1672/A
 36. ✔✔✔ https://codeforces.com/problemset/problem/1674/A
 37. ✔✔✔ https://codeforces.com/problemset/problem/1674/B
 38. ✔✔✔ https://codeforces.com/problemset/problem/1674/C
