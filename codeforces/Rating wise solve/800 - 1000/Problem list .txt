@@ -26,8 +26,8 @@ Problems I need to solve:
 25. https://codeforces.com/problemset/problem/1696/B
 27. https://codeforces.com/problemset/problem/1696/A
 28. https://codeforces.com/problemset/problem/1695/B
-29. https://codeforces.com/problemset/problem/1661/A
-30. https://codeforces.com/problemset/problem/1665/B
+29. ✔✔✔ https://codeforces.com/problemset/problem/1661/A
+30. ✔✔✔ https://codeforces.com/problemset/problem/1665/B
 31. ✔✔✔ https://codeforces.com/problemset/problem/1668/A
 32. ✔✔✔ https://codeforces.com/problemset/problem/1668/B
 33. ✔✔✔ https://codeforces.com/problemset/problem/1669/C
