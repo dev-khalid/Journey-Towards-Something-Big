@@ -25,7 +25,7 @@ Problems I need to solve:
 24. https://codeforces.com/problemset/problem/1698/A
 25. ✔✔✔ https://codeforces.com/problemset/problem/1696/B
 27. ✔✔✔ https://codeforces.com/problemset/problem/1696/A
-28. https://codeforces.com/problemset/problem/1695/B
+28. ✔✔✔ https://codeforces.com/problemset/problem/1695/B
 29. ✔✔✔ https://codeforces.com/problemset/problem/1661/A
 30. ✔✔✔ https://codeforces.com/problemset/problem/1665/B
 31. ✔✔✔ https://codeforces.com/problemset/problem/1668/A
