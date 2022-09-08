@@ -42,3 +42,4 @@ int main()
         }
     }
 }
+//i got something better on coding implementation that's obviously short
