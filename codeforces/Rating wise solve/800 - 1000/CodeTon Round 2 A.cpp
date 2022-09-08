@@ -26,7 +26,6 @@ int main() {
                 }
             }
             if(end_of_search == -1 || end_of_search >=(n-m+1)) {
-                cout << end_of_search << " " << (n-m+1) << endl;
                 cout << "NO\n";
             } else {
 
