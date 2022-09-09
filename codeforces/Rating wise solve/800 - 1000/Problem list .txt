@@ -5,7 +5,7 @@ Problems I need to solve:
 4. https://codeforces.com/problemset/problem/1719/A
 5. https://codeforces.com/problemset/problem/1717/A
 6. https://codeforces.com/problemset/problem/1716/B
-7. https://codeforces.com/problemset/problem/1716/A
+7. ✔✔✔ https://codeforces.com/problemset/problem/1716/A
 8. ✔✔✔ https://codeforces.com/problemset/problem/1713/B
 9. ✔✔✔ https://codeforces.com/problemset/problem/1713/A
 10. ✔✔✔ https://codeforces.com/problemset/problem/1712/B
