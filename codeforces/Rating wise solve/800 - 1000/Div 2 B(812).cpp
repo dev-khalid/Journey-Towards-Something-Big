@@ -37,7 +37,6 @@ int main()
                 {
                     if(v[i]<v[i-1])
                     {
-                        cout << v[i] << " " << v[i-1] << endl;
                         dec = true;
                         inc = false;
                         state_change++;
@@ -48,14 +47,12 @@ int main()
                     if(v[i]>v[i-1])
                     {
 
-                        cout << v[i] << " " << v[i-1] << endl;
                         inc = true;
                         dec = false;
                         state_change++;
                     }
                 }
             }
-            cout << "state change " << state_change << endl;
             if(state_change>1)
             {
                 cout << "NO\n";
