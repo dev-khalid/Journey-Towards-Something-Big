@@ -1,6 +1,6 @@
 ✔✔✔https://codeforces.com/problemset/problem/1351/B
 ✔✔✔https://codeforces.com/problemset/problem/1726/A
-https://codeforces.com/problemset/problem/1720/A
+✔✔✔https://codeforces.com/problemset/problem/1047/B
 https://codeforces.com/problemset/problem/1697/B
 https://codeforces.com/problemset/problem/1689/B
 https://codeforces.com/problemset/problem/1666/D
