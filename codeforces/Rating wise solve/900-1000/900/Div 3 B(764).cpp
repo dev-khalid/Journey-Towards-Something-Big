@@ -16,23 +16,23 @@ int main() {
         bool ok = false;
         //fix a,b and try changing c
         int nt = (b-a) + b; //next term should be equal to this
-        if(nt%c==0) {
+        if(nt%c==0 && nt>0) {
             ok = true;
         }
         //fix a,c and change b
         nt = c-a;
         if(!(nt&1)) {
             nt /= 2;
-            nt+a;
-            if(nt%b==0) {
+            nt+=a;
+            if(nt%b==0 && nt>0) {
                 ok = true;
             }
         }
 
 
         //fix b,c and change a
-        nt = (b-c)+b;
-        if(nt%a==0) {
+        nt = b-(c-b);
+        if(nt%a==0 && nt>0) {
             ok = true;
         }
 
