@@ -13,8 +13,8 @@
 ✔✔✔https://codeforces.com/problemset/problem/1610/A
 ✔✔✔https://codeforces.com/problemset/problem/1609/A
 ✔✔✔https://codeforces.com/problemset/problem/1607/B
-https://codeforces.com/problemset/problem/1606/A
-https://codeforces.com/problemset/problem/1593/B
+✔**https://codeforces.com/problemset/problem/1606/A
+✔✔✔https://codeforces.com/problemset/problem/1593/B
 https://codeforces.com/problemset/problem/1585/B
 https://codeforces.com/problemset/problem/1584/C
 https://codeforces.com/problemset/problem/1582/B 
