@@ -25,7 +25,7 @@
 ✔✔✔https://codeforces.com/problemset/problem/1543/A
 ✔✔✔https://codeforces.com/problemset/problem/1537/B
 ✔✔✔https://codeforces.com/problemset/problem/1535/B
-https://codeforces.com/problemset/problem/1525/B
+✔✔✔https://codeforces.com/problemset/problem/1525/B
 ✔✔✔https://codeforces.com/problemset/problem/1505/A
 https://codeforces.com/problemset/problem/1501/B
 
