@@ -1,0 +1,32 @@
+1.Binary Search 
+    i. https://codeforces.com/edu/course/2/lesson/6 (0/22)
+    ii. https://www.youtube.com/watch?v=LcWPKR1uef4
+    iii. https://www.youtube.com/playlist?list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2 (0/21)
+
+5.Two pointer 
+    i. https://codeforces.com/edu/course/2/lesson/9 (0/19)
+    ii. https://www.youtube.com/playlist?list=PLgUwDviBIf0rBT8io74a95xT-hDFZonNs (0/7)
+
+3.Math 
+    i. https://www.youtube.com/playlist?list=PLkxUHWNJNmL-E8YX5XeneXzwpWGyHayG7 (0/176)
+
+2.Number theory 
+    i. https://www.youtube.com/playlist?list=PLauivoElc3giVROwL-6g9hO-LlSen_NaV (0/25)
+    ii. https://www.youtube.com/playlist?list=PL22w63XsKjqwAgBzVFVqZNMcVKpOOAA7c (0/123)
+    iii. https://www.youtube.com/playlist?list=PL-Jc9J83PIiFs8E0EGeckM89cD8E6sFro (0/67)
+    iv. https://www.youtube.com/playlist?list=PL-Jc9J83PIiF0L_qYN4HG_MJpi1I8gvpy (0/20)
+    v. https://www.youtube.com/playlist?list=PL0G2Ga9ALv6k1JZwK0gLvP96uaP2BwPpo (0/27)
+    vi. https://cses.fi/problemset/(Mathematics - 0/32)
+    vii. https://www.youtube.com/watch?v=KOzByAdxVZ8&list=PLDjGkpToBsYCaRoQ-_S5MRxYMuKgHD62w&index=13
+    viii. https://www.youtube.com/watch?v=Q5knm-DArA0&list=PLDjGkpToBsYCaRoQ-_S5MRxYMuKgHD62w&index=13
+
+4.String 
+    i. https://codeforces.com/edu/course/2/lesson/2 (0/11) 
+
+6.Sliding window 
+    i. https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj (0/13)
+
+
+*Start Date - 21/09/2022
+*Deadline - 21/11/2022
+*Average Tutorial - 1H 
