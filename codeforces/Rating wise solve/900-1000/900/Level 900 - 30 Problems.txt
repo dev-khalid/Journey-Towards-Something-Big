@@ -27,11 +27,12 @@
 ✔✔✔https://codeforces.com/problemset/problem/1535/B
 ✔✔✔https://codeforces.com/problemset/problem/1525/B
 ✔✔✔https://codeforces.com/problemset/problem/1505/A
-https://codeforces.com/problemset/problem/1501/B
+✔✔✔https://codeforces.com/problemset/problem/1501/B
 
 
 
 *30 Problems 
 *Starting Date - 11/09/2022 
 *Expected Deadline - 18/09/2022 
+*Completion date - 20/09/2022 [2 Days off due to exam]
 *Per Day Solving 4 Problems is the minimum requirement. 
