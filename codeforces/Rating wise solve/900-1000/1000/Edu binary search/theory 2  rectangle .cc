@@ -27,4 +27,20 @@ int main() {
         }
     }
     cout << ans << endl;
+
+
+    vector<int> arr = {0,0,0,1,1,1,1,1,1,1,1};
+     l = 0, h = arr.size()-1;
+     ans = h;
+
+    while(l <= h) {
+        m = l + (h-l)/2;
+        if(arr[m]) {
+            ans = min(ans,m);
+            h = m-1;
+        } else {
+            l = m+1;
+        }
+    }
+    cout << ans << endl;
 }
