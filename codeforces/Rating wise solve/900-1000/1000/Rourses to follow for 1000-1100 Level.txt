@@ -1,6 +1,6 @@
 1.Binary Search 
     *Monotonic functions (On monotinic functions binary search can be applied )
-    i. https://codeforces.com/edu/course/2/lesson/6 (0/22)
+    i. https://codeforces.com/edu/course/2/lesson/6 (4/22)
     ii. https://www.youtube.com/watch?v=LcWPKR1uef4
     iii. https://www.youtube.com/playlist?list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2 (0/21)
     iv. https://www.youtube.com/playlist?list=PLb3g_Z8nEv1jH8cmcMrx_6MuM_KC_LIan (0/4)
