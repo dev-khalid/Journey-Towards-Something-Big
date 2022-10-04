@@ -8,7 +8,7 @@ int main()
     {
         int n,m;
         cin >> n >> m;
-        if(n>m || (!n&1 && m&1))
+        if(n>m || (n%2==0 && m&1))
         {
             cout << "NO\n";
             continue;
