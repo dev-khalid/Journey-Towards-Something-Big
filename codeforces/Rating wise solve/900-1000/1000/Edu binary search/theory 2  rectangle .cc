@@ -1,24 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
-int min_required(int a,int b,int n) {
-    return min(a,b)*n;
+typedef long long ll;
+ll min_required(ll a,ll b,ll n) {
+    return max(a,b)*n;
 }
-bool available(int a,int b,int n,int grid) {
-    int total_available = 0;
+bool available(ll a,ll b,ll n,ll grid) {
+    ll total_available = 0;
     total_available = (grid/a)*(grid/b);
     return total_available >= n;
 }
 int main() {
-    int a,b;
+    ll a,b;
     cin >> a >> b;
-    int n;
+    ll n;
     cin >> n;
-    int l = a*b, h = min_required(a,b,n);
-    int m;
-    int ans = h;
+    ll l = a*b, h = min_required(a,b,n);
+    ll m;
+    ll ans = h;
 
     while(l <= h) {
-        m = l + (h-l)/2;
+        m = (h+l)/2;
         if(available(a,b,n,m)) {
             ans = min(ans,m);
             h = m-1;
