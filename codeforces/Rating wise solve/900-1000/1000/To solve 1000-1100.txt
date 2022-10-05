@@ -5,7 +5,7 @@ CSES-Mathmatics ,Searching and sorting.
 1. ✔✔✔ https://codeforces.com/problemset/problem/1726/B
 2. ✔✔✔ https://codeforces.com/problemset/problem/1725/B
 3. ✔✔✔ https://codeforces.com/problemset/problem/1722/D
-4. https://codeforces.com/problemset/problem/1721/B
+4. ✔✔✔ https://codeforces.com/problemset/problem/1721/B
 5.https://codeforces.com/problemset/problem/1717/B
 6.https://codeforces.com/problemset/problem/1712/C
 7.https://codeforces.com/problemset/problem/1708/B
