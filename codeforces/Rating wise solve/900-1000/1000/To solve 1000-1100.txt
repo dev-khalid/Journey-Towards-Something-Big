@@ -8,7 +8,7 @@ CSES-Mathmatics ,Searching and sorting.
 4. ✔✔✔ https://codeforces.com/problemset/problem/1721/B
 5. ***  https://codeforces.com/problemset/problem/1717/B
 6. ✔✔✔ https://codeforces.com/problemset/problem/1712/C
-7.https://codeforces.com/problemset/problem/1708/B
+7. ✔✔✔ https://codeforces.com/problemset/problem/1708/B
 8.https://codeforces.com/problemset/problem/1706/B
 9.https://codeforces.com/problemset/problem/1703/D
 10.https://codeforces.com/problemset/problem/1702/C
