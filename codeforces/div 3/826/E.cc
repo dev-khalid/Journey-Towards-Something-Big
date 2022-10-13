@@ -1,48 +1,36 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main() {
+int main()
+{
     int t;
     cin >> t;
-    while(t--) {
+    while(t--)
+    {
         int n;
         cin >> n;
-        vector<int> v(n);
-        for(int i = 0; i < n; i++) {
+        vector<int> v(n+1);
+        for(int i = 1; i <= n; i++)
+        {
             cin >> v[i];
         }
-        if(n==1) {
-            cout << "NO\n";
-            continue;
-        }
-        int invalid = 0;
-        unordered_map<int,bool> right,left;
-
-        for(int i = 0; i < n; i++) {
-            if(invalid) {
-                //if there is some invalid elements to cover by current element then it's the primary goal
-                if(v[i]==invalid) {
-                    //then check if it reaches till end
-                    left[i] = true;
-
-                    //if it doesn't reaches till end then the current element is also counted as invalid
-                    bool reached = false;
-                    for(int j = i+1; j < n; j++) {
-                        if(right.find(j)!=right.end()) {
-                            //previously computed values found
-                            reached = right[j];
-                            break;
-                        }
-
-                    }
-                } else {
-                    invalid++;
-                }
-            } else {
-                //no invalids there . if with current element i can reach end if i find something thats
-                //already computed then it will be loss of time
-                for(int )
+        vector<int> dp(n+1,0);
+        dp[0] = 1;
+        for(int i = 1; i <= n; i++)
+        {
+            //if the current element can handle left side
+            int left = i-v[i]-1;
+            if(left >= 0 && dp[left])
+            {
+                //covered left side
+                dp[i] = 1;
+            }
+            int right = i+v[i];
+            if(right <= n && dp[i-1])
+            {
+                dp[right] = 1;
             }
         }
+        cout << (dp[n]==1 ? "YES\n" : "NO\n");
     }
 }
 //it is getting so much complex and getting out of my head
