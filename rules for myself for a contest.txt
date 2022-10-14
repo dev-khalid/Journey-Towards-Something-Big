@@ -1,0 +1,24 @@
+Competitive Coding Rules for Myself: 
+
+
+
+1.Never look at standings: 
+    Looing at standings at contest time might be distracting for a person. Comparing with other can be disappointing .
+    Cause as a senior i just started competitive programming seriously some day ago but juniors are doing it for las 3/4 years . So comparing with them 
+    is a kind of foolishness. 
+2.Never expect to solve X number of problems prior to contest: 
+    When expectation doesn't meet reality it can be much more frustrating along it the hindrace of performance. So don't keep any expectation rather try to solve current problem attentively . 
+    And become happy at solving each of the problems. This will gather more motivation for solving next one . 
+3.Read the problem properly: 
+    Due to not reading the problem properly i failed many times. So next time i need to be careful on this . It might be a easy problem but due to rush i might end up with failur so 
+    rather then rushing read the problem slowly and try note each and every important part and small hints in it. Generally in lower level problems the hint is already given in the problem and i 
+    don't neet to find a working algorithm to solve the problem . Just being a little bit attentive can make a great change . 
+4.Don't compare with my previous contests rating also : 
+    It's not the time when i keep an eye on my rating . It's almost zero . So who doesn't have anything to lose whay to fear? 
+5.Don't get frustrated by seeing others standing: 
+    They have solved more then 1000 problems . They have gone through lot more variations and mistakes so these things made them stronger . 
+    So just happyly accept what happens . Good days will come soon. 
+6.Don't be so much input or a particular test case oriented: 
+    Try to solve the problem throritically first on paper then apply that algorithm . This process will help in harder ones. 
+
+Happy competitive programming Journey ❤❤❤
