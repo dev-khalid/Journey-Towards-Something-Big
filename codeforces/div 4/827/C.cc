@@ -17,49 +17,27 @@ int main()
                 cin >> v[i][j];
             }
         }
-
-        pair<char,int> c1;
-        pair<char,int> c2;
+        string ans = "-1";
+        bool f = false;
         for(int i = 0; i < n; i++)
         {
             int cnt = 0;
             char c = v[i][0];
             for(int j = 0; j < n; j++)
             {
-                if(v[i][j]==c) cnt++;
+                if(v[i][j]=='R') cnt++;
             }
-            if(cnt==7 && c!='.')
-            {
-                c1 = {c,7};
-            }
-            if(cnt==8 && c!='.') {
-                c2 = {c,8};
+            if(cnt==8) {
+                ans = "R";
+                f = true;
+                break;
             }
 
         }
-        for(int i = 0; i < n; i++)
-        {
-            int cnt = 0;
-            char c = v[0][i];
-            for(int j = 0; j < n; j++)
-            {
-                if(v[j][i]==c) cnt++;
-            }
-            if(cnt==7 && c!='.')
-            {
-                c1 = {c,7};
-            }
-            if(cnt==8 && c!='.') {
-                c2 = {c,8};
-            }
-
+        if(!f) {
+            ans = "B";
         }
-
-        if(c1.second==7 && c1.first!=c2.first) {
-            cout << c2.first << endl;
-        } else {
-            cout <<
-        }
+        cout << ans << endl;
     }
 }
 /*
@@ -73,14 +51,14 @@ BBBBBBBB
 BBBBBBBB
 RRRRRRRR
 
-BBBBBBBR
-BBBBBBBR
-BBBBBBBR
-BBBBBBBR
-BBBBBBBR
-BBBBBBBR
-BBBBBBBR
-BBBBBBBR
+BBBBBBBB
+BBBBBBBB
+BBBBBBBB
+BBBBBBBB
+BBBBBBBB
+BBBBBBBB
+RRRRRRRR
+BBBBBBBB
 */
 //hoy current element er dane bame ekta kora b thakbe and sei full row or column ta valid hobe ?
 
