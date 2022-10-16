@@ -53,3 +53,5 @@ int main() {
         }
     }
 }
+
+//got a better implementation
