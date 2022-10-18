@@ -20,7 +20,7 @@ CSES-Mathmatics ,Searching and sorting.
 16. ✔✔✔ https://codeforces.com/problemset/problem/1682/B
 17.https://codeforces.com/problemset/problem/1202/A
 18.https://codeforces.com/problemset/problem/1176/B
-19.https://codeforces.com/problemset/problem/1676/E
+19. ✔✔✔ https://codeforces.com/problemset/problem/1676/E (16 mins)
 20.https://codeforces.com/problemset/problem/1675/C
 21.https://codeforces.com/problemset/problem/1672/C
 22.https://codeforces.com/problemset/problem/1669/D
