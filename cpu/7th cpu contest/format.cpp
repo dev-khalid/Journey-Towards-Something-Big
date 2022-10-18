@@ -1,0 +1,74 @@
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+int main()
+{
+    ll n;
+    cin >> n;
+    //biggest segment of consequtive elements
+    // then take that starting point and ending point .. minus the rest of the elements needed
+
+    unordered_map<int,bool> mp;
+    vector<int> v(n);
+    for(ll i = 0 ; i < n; i++)
+    {
+        cin >> v[i];
+        mp[v[i]]= true;
+    }
+    sort(v.begin(),v.end());
+    int seg_size = 1;
+    int start = v[0];
+    int current_seg_size = 1;
+    int current_start = v[0];
+    for(int i = 1; i < n; i++)
+    {
+
+
+        if(v[i]==v[i-1])
+        {
+            continue;
+        }
+        if(v[i]-1==v[i-1])
+        {
+            // biggest segment finding
+            current_seg_size ++;
+
+        }
+        else
+        {
+            //cout << "why breaking" << v[i] << " " << v[i-1] << endl;
+            //not matching
+            if(current_seg_size>seg_size)
+            {
+                start = current_start;
+                seg_size = current_seg_size;
+            }
+            current_seg_size = 1;
+            current_start = v[i];
+
+        }
+
+    }
+    //comparision out of the loop . so that current segment size can be updated
+    if(current_seg_size>seg_size)
+    {
+        start = current_start;
+        seg_size = current_seg_size;
+    }
+    int ed = start+seg_size-1;
+    int cnt = 0;
+    int cnt2 = 0;
+    for(int i = 0; i < n; i++) {
+        if(mp.find(start+i)==mp.end()) {
+            cnt++;
+        }
+        if(mp.find(ed-i)==mp.end()) {
+            cnt2++;
+        }
+    }
+    //cout << start << " " << seg_size << endl;
+    cout << min(cnt,cnt2) << endl;
+
+
+}
