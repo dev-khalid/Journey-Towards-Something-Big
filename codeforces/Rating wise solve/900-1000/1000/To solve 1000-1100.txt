@@ -17,9 +17,9 @@ CSES-Mathmatics ,Searching and sorting.
 13. ✔✔✔ https://codeforces.com/problemset/problem/1691/B
 14. ✔✔✔ https://codeforces.com/problemset/problem/1690/D
 15. ✔✔✔ https://codeforces.com/problemset/problem/1685/A
-16.https://codeforces.com/problemset/problem/1685/A
-17.https://codeforces.com/problemset/problem/1685/A
-18.https://codeforces.com/problemset/problem/1682/B
+16. ✔✔✔ https://codeforces.com/problemset/problem/1682/B
+17.https://codeforces.com/problemset/problem/1202/A
+18.https://codeforces.com/problemset/problem/1176/B
 19.https://codeforces.com/problemset/problem/1676/E
 20.https://codeforces.com/problemset/problem/1675/C
 21.https://codeforces.com/problemset/problem/1672/C

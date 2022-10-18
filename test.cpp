@@ -1,27 +1,33 @@
 #include<bits/stdc++.h>
 using namespace std;
-typedef long long ll;
+
 int main()
 {
-    ll t;
+    int t;
     cin >> t;
-    while(t--) {
-        ll n;
+    while(t--)
+    {
+        int n;
         cin >> n;
-        vector<ll> v(n);
-        map<ll,ll> mp;
-        for(ll i = 0; i < n; i++) {
-            cin >> v[i];
-            mp[v[i]]=1;
+        string a,b;
+        bool found = false;
+        cin >> a >> b;
+        //cnt of each character needs to be equal first
+        int ans = n-1;
+        for(int i = 0; i < n; i++)
+        {
+            if(b[i]==a[0])
+            {
+                //start checking from this point
+                int j = 0;
+                while(b[(i+j)%n] == a[j] && j<n) j++;
+                if(j==n)
+                {
+                    found = true;
+                    ans = min(n-i,i);
+                }
+            }
         }
-        sort(v.begin(),v.end());
-        if(mp[v[n-1]+v[n-2]+v[n-3]]==0) {
-            cout << "NO\n";
-        } else {
-            cout << "YES\n";
-        }
+        cout << (found ? ans : -1) << endl;
     }
-    return 0;
-
-
 }
