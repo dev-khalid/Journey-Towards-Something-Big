@@ -18,8 +18,8 @@ CSES-Mathmatics ,Searching and sorting.
 14. ✔✔✔ https://codeforces.com/problemset/problem/1690/D
 15. ✔✔✔ https://codeforces.com/problemset/problem/1685/A
 16. ✔✔✔ https://codeforces.com/problemset/problem/1682/B
-17. *** https://codeforces.com/problemset/problem/1202/A  [ ISSUE: Didn't read the problem properly. ] 
-18.https://codeforces.com/problemset/problem/1176/B
+17. *** https://codeforces.com/problemset/problem/1202/A  [Thinked about : 1H.  ISSUE: Didn't read the problem properly. ] 
+18.✔✔✔ https://codeforces.com/problemset/problem/1176/B [43 Mins. Logic came to mind : 15 min . Missed a single portion that took me more 30 mins. ]
 19. ✔✔✔ https://codeforces.com/problemset/problem/1676/E (16 mins)
 20.https://codeforces.com/problemset/problem/1675/C
 21.https://codeforces.com/problemset/problem/1672/C
