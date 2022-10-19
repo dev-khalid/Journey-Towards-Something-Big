@@ -22,7 +22,7 @@ CSES-Mathmatics ,Searching and sorting.
 18.✔✔✔ https://codeforces.com/problemset/problem/1176/B [43 Mins. Logic Found: 15 min . Missed a single portion that took me more 30 mins. ]
 19. ✔✔✔ https://codeforces.com/problemset/problem/1676/E (16 mins)
 20. ✔✔✔ https://codeforces.com/problemset/problem/1675/C [40 mins Logic: 20 mins ISSUE: Didn't read the problem properly ]
-21.https://codeforces.com/problemset/problem/1672/C
+21. ✔✔✔ https://codeforces.com/problemset/problem/1672/C [30 mins Logic: 15 mins]
 22.https://codeforces.com/problemset/problem/1669/D
 23.https://codeforces.com/problemset/problem/1659/A
 24.https://codeforces.com/problemset/problem/1656/B
