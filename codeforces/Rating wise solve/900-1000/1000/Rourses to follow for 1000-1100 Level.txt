@@ -8,7 +8,11 @@
     ii. https://www.youtube.com/watch?v=LcWPKR1uef4
     iii. https://www.youtube.com/playlist?list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2 (0/21)
     iv. https://www.youtube.com/playlist?list=PLb3g_Z8nEv1jH8cmcMrx_6MuM_KC_LIan (0/4)
-
+8.Sorting and searching: 
+    i. https://www.youtube.com/watch?v=aGMzcfWsdWE&list=PL-Jc9J83PIiHhXKonZxk7gbEWsmSYP5kq (0/47) 
+    ii. Sorting Leetcode (20 Medium, 5 Hard) 
+    iii. Searching Leetcode (20 Medium , 5 hard) 
+    iv. Binary Search codeforces (20 From rating 1100 - 1300)
 7. Greedy 
     i.https://www.youtube.com/watch?v=Oq1seKJvfQU (Exchange arguments) 
 5.Two pointer 
