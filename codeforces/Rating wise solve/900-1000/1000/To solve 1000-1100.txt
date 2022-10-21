@@ -26,8 +26,8 @@ CSES-Mathmatics ,Searching and sorting.
 22. ✔✔✔ https://codeforces.com/problemset/problem/1669/D [15 Mins Logic : 5 mins]
 23. *** https://codeforces.com/problemset/problem/1659/A [Nothing found : 1:20 H Left for next day ISSUE: Didn't know or couln't catch the concept]
 24. *** https://codeforces.com/problemset/problem/1656/B [ISSUE : Dependent on Input instead of proving theory  & also lost patience ]
-25.https://codeforces.com/problemset/problem/1638/B
-26.https://codeforces.com/problemset/problem/1637/B
+25. ✔✔✔ https://codeforces.com/problemset/problem/1638/B [30 mins Reason for being fast : tackled previous mistakes]
+26.https://codeforces.com/problemset/problem/1637/B [53 mmins . Logic : 25 Mins . Logic 2: 50 Mins . Reason for being late : Tough word and also not reading the problem once again. Thinked the problem in a tough way]
 27.https://codeforces.com/problemset/problem/1634/C
 28.https://codeforces.com/problemset/problem/1633/C
 29.https://codeforces.com/problemset/problem/1632/B
