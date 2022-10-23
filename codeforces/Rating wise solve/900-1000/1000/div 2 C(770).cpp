@@ -4,8 +4,22 @@ int main() {
     int t;
     cin >> t;
     while(t--) {
+
+
+
+
         int n,k;
         cin >> n >> k;
+
+        /*
+        this is the better solution from a grandmaster
+		if (n%2 && k>1) cout<<"NO\n";
+		else
+		{
+			cout<<"YES\n";
+			for (int i=0;i<n;++i,cout<<endl) for (int j=0;j<k;++j) cout<<j*n+i+1<<' ';
+		}
+        */
         if(k==1) {
             cout << "YES\n";
             for(int i = 1; i <= n; i++) {
@@ -48,5 +62,6 @@ int main() {
 
             cout << endl;
         }
+
     }
 }
