@@ -31,7 +31,7 @@ CSES-Mathmatics ,Searching and sorting.
 27. ✔✔✔ https://codeforces.com/problemset/problem/1634/C [50 mins. Logic: 20 mins . Issue : Peeped up a little on test case and finally found that i hadn't test properly. ]
 28. ✔✔✔ https://codeforces.com/problemset/problem/1633/C [Logic was okay . ISSUE : Ceil using long long was an issue . I found a tricky way to solve that . ]
 29. ✔✔✔ https://codeforces.com/problemset/problem/1632/B [Logic : 17 Min. Error : 22 Min Ac: 25 Min. Issue : Missed an edge case.]
-30.https://codeforces.com/problemset/problem/1631/B [Logic: 22 Mins Issue : Bad at implementation ] 
+30.https://codeforces.com/problemset/problem/1631/B [Logic: 22 Mins Ac: 51 Mins Issue : Bad at implementation ] 
 31.https://codeforces.com/problemset/problem/1632/B
 32.https://codeforces.com/problemset/problem/1626/B
 33.https://codeforces.com/problemset/problem/1625/B 
