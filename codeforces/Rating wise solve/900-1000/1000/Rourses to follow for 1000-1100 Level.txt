@@ -1,18 +1,13 @@
 1.Binary Search 
     *Monotonic functions (On monotinic functions binary search can be applied )
-    i. https://codeforces.com/edu/course/2/lesson/6 (4/22)
-        [
-            theres no solution for binary search problems so if i get stuck then its hard for me to find that out as a beginner so i will be skipping the practice part for now.
-            I will complete these problems after completing the whole section of my  two months journey. 
-        ]
-    ii. https://www.youtube.com/watch?v=LcWPKR1uef4
+    i. ✔✔✔ https://codeforces.com/edu/course/2/lesson/6 {Resource_Type: "Advanced"}
+    Deadline: 7/11/22
+    v.https://www.youtube.com/playlist?list=PLiBt6xFREjh9Z2d6MZv0RbHugvEScpJWz
     iii. https://www.youtube.com/playlist?list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2 (0/21)
+    ii. https://www.youtube.com/watch?v=LcWPKR1uef4
     iv. https://www.youtube.com/playlist?list=PLb3g_Z8nEv1jH8cmcMrx_6MuM_KC_LIan (0/4)
 8.Sorting and searching: 
     i. https://www.youtube.com/watch?v=aGMzcfWsdWE&list=PL-Jc9J83PIiHhXKonZxk7gbEWsmSYP5kq (0/47) 
-    ii. Sorting Leetcode (20 Medium, 5 Hard) 
-    iii. Searching Leetcode (20 Medium , 5 hard) 
-    iv. Binary Search codeforces (20 From rating 1100 - 1300)
 7. Greedy 
     i.https://www.youtube.com/watch?v=Oq1seKJvfQU (Exchange arguments) 
 5.Two pointer 
