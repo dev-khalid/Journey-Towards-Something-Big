@@ -104,4 +104,4 @@ CSES-Mathmatics ,Searching and sorting.
 100.https://codeforces.com/problemset/problem/1173/B
 
 Binary Search: 
-1.https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+1.https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/ [Logic: 30mins ISSUE: Didn't read the description carefully. Ac: 1H20Mins]

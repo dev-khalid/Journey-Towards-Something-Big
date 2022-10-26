@@ -3,39 +3,45 @@ using namespace std;
 class Solution
 {
 public:
-    bool isValid(vector<int> &prefix,int days,int weight) {
+   bool isValid(vector<int> &prefix,int days,int weight) {
         //this is a function to check if for the max weight capacity given .. conveyor belts can be shiped within days
         int cnt =0;
         int last = 0;
         int n = prefix.size();
         for(int i = 1; i<prefix.size(); i++) {
-            if(i==n-1) {
-                cnt++;
-                continue;
-            }
+
             if(prefix[i]-prefix[last]>weight) {
                 //this is the breaking condition .
                 //on this day the ship should be shipped .
                 cnt++;
                 last = i-1;
+                //if this is the last index and also overweight . then count should be 2
+                if(i==n-1) {
+                    cnt++;
+                }
+                continue;
+            }
+            if(i==n-1) {
+                cnt++;
             }
 
         }
-        cout << "weights and days " << weight << " " << cnt << endl;
+        //cout << "weights and days " << weight << " " << cnt << endl;
         return cnt<=days;
     }
     int shipWithinDays(vector<int>& weights, int days)
     {
         int n = weights.size();
-        sort(weights.begin(),weights.end());
 
         vector<int> prefix(n+2);//1 based indexing
         prefix[0] = 0;
+        int low = weights[0];
         for(int i = 0; i < n; i++) {
             prefix[i+1] = prefix[i]+weights[i];
+            low = max(low,weights[i]);
         }
         int high = prefix[n];
-        int low = weights[n-1];
+
         //now start a binary search on the answer .
         int mid;
         int ans = high;
