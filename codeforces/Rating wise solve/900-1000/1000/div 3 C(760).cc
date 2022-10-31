@@ -1,0 +1,60 @@
+#include<bits/stdc++.h>
+using namespace std;
+//need there result only
+typedef long long ll;
+
+
+//gcd of long long
+int main()
+{
+    ll t;
+    cin >> t;
+    while(t--)
+    {
+        int n;
+        cin >> n;
+        vector<ll> v(n);
+
+        for(int i = 0; i < n; i++)
+        {
+            cin >> v[i];
+        }
+        //now go for odd positions and even positions .
+        ll ge=v[0],go = v[1];
+
+        for(int i = 0; i < n; i++) {
+            if(i&1) {
+                go = __gcd(go,v[i]);
+            } else {
+                ge = __gcd(ge,v[i]);
+            }
+        }
+        bool found = true;
+
+        for(int i = 0; i < n; i+=2) {
+            if(v[i]%go==0) {
+                found = false;
+                break;
+            }
+        }
+        if(found) {
+           cout << go << endl;
+           continue;
+        }
+        found = true;
+        for(int i = 1; i < n; i+=2) {
+            if(v[i]%ge==0) {
+
+                found = false;
+                break;
+            }
+        }
+        if(found) {
+           cout << ge << endl;
+           continue;
+        }
+        cout << 0 << endl;
+
+    }
+}
+
