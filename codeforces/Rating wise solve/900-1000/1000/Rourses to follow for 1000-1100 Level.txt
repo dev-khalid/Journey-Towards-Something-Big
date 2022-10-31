@@ -8,6 +8,7 @@
     iv. https://www.youtube.com/playlist?list=PLb3g_Z8nEv1jH8cmcMrx_6MuM_KC_LIan (0/4)
 8.Sorting and searching: 
     i. https://www.youtube.com/watch?v=aGMzcfWsdWE&list=PL-Jc9J83PIiHhXKonZxk7gbEWsmSYP5kq (0/47) 
+    ii.✔✔✔ https://www.geeksforgeeks.org/quick-sort/ (problem based on the idea : https://codeforces.com/problemset/problem/1623/B)
 7. Greedy 
     i.https://www.youtube.com/watch?v=Oq1seKJvfQU (Exchange arguments) 
 5.Two pointer 
@@ -44,7 +45,6 @@
 4.String 
     i. https://codeforces.com/edu/course/2/lesson/2 (0/11) 
     ii.https://www.youtube.com/playlist?list=PL5DyztRVgtRWVqLox_K8lrWZCclxzHzLD (0/12)
-    iii.https://www.geeksforgeeks.org/quick-sort/ (problem based on the idea : https://codeforces.com/problemset/problem/1623/B)
 
 6.Sliding window 
     i. https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj (0/13)
