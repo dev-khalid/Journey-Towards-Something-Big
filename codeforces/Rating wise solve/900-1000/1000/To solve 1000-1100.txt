@@ -42,7 +42,7 @@ CSES-Mathmatics ,Searching and sorting.
 38. ✔✔✔ https://codeforces.com/problemset/problem/1618/C [Reading: 1Min Logic: 6Mins Issue: typeing error & lack of long long int knowledge (could be better if i had used python) Ac: 45 mins]
 39. ✔✔✔ https://codeforces.com/problemset/problem/1616/B [Reading: 3 mins , Logic: 5 mins Issue : Missed one of the logic . Ac: 34 mins]
 40. ✔✔✔ https://codeforces.com/problemset/problem/1614/B
-41.https://codeforces.com/problemset/problem/1613/B
+41. ✔✔✔ https://codeforces.com/problemset/problem/1613/B [Ac: 23 Mins]
 42.https://codeforces.com/problemset/problem/1611/C
 43.https://codeforces.com/problemset/problem/1610/B
 44.https://codeforces.com/problemset/problem/1607/C
