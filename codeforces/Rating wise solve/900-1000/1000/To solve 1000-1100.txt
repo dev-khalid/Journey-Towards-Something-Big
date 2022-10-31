@@ -35,7 +35,7 @@ CSES-Mathmatics ,Searching and sorting.
 31. ✔✔✔ https://codeforces.com/problemset/problem/1632/B [Logic : 17 Min. Error : 22 Min Ac: 25 Min. Issue : Missed an edge case.]
 32. ✔✔✔ https://codeforces.com/problemset/problem/1626/B [Logic : 20 mins Logic 2: 1H 10 Mins Issue: Though the problem too much hardly. Ac: 1h 15mins]
 33. ✔✔✔ https://codeforces.com/problemset/problem/1625/B [Reading : 10 Mins Ac: 30 Mins]
-34.https://codeforces.com/problemset/problem/1624/C
+34. ✔✔✔ https://codeforces.com/problemset/problem/1624/C [Ac: 30 mins , Reading: 2 Mins]
 35.https://codeforces.com/problemset/problem/1623/B 
 36.https://codeforces.com/problemset/problem/1622/B
 37.https://codeforces.com/problemset/problem/1620/B
