@@ -37,7 +37,7 @@ CSES-Mathmatics ,Searching and sorting.
 33. ✔✔✔ https://codeforces.com/problemset/problem/1625/B [Reading : 10 Mins Ac: 30 Mins]
 34. ✔✔✔ https://codeforces.com/problemset/problem/1624/C [Ac: 30 mins , Reading: 2 Mins]
 35. ✔✔✔ https://codeforces.com/problemset/problem/1623/B [Logic: 1H 30 mins Ac: 1H 45 mins ISSUE: Maybe sickness || couldn't focus properly]
-36.https://codeforces.com/problemset/problem/1622/B
+36. ✔✔✔ https://codeforces.com/problemset/problem/1622/B [Reading: 5Mins Logic: 20 mins Ac: 35mins]
 37.https://codeforces.com/problemset/problem/1620/B
 38.https://codeforces.com/problemset/problem/1618/C
 39.https://codeforces.com/problemset/problem/1616/B
