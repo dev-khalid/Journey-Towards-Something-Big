@@ -43,9 +43,9 @@ CSES-Mathmatics ,Searching and sorting.
 39. ✔✔✔ https://codeforces.com/problemset/problem/1616/B [Reading: 3 mins , Logic: 5 mins Issue : Missed one of the logic . Ac: 34 mins]
 40. ✔✔✔ https://codeforces.com/problemset/problem/1614/B
 41. ✔✔✔ https://codeforces.com/problemset/problem/1613/B [Ac: 23 Mins]
-42.https://codeforces.com/problemset/problem/1611/C [Issue: Trash thinking and going over input not about theory. ]
-43.https://codeforces.com/problemset/problem/1610/B
-44.https://codeforces.com/problemset/problem/1607/C
+42. *** https://codeforces.com/problemset/problem/1611/C [Issue: Trash thinking and going over input not about theory. ]
+43. ✔✔✔ https://codeforces.com/problemset/problem/1610/B [Reading: 1Min Ac: 11 mins]
+44. ✔✔✔ https://codeforces.com/problemset/problem/1607/C [Reading: 3Mins Ac: 15 Mins]
 45.https://codeforces.com/problemset/problem/1606/B
 46.https://codeforces.com/problemset/problem/1605/B
 47.https://codeforces.com/problemset/problem/1602/B
