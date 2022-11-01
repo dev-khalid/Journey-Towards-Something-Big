@@ -47,4 +47,6 @@ int main()
     }
 }
 //found the best solution in the tutorial section .
-//they applied the idea that .. if y is min .. x%y will be lesser than y . so
+//they applied the idea that .. if y is min .. x%y will be lesser than y . so choosing y as the min
+//will get me the ans . cause there is no element exist less than y . that way awesome .
+
