@@ -46,7 +46,7 @@ CSES-Mathmatics ,Searching and sorting.
 42. *** https://codeforces.com/problemset/problem/1611/C [Issue: Trash thinking and going over input not about theory. ]
 43. ✔✔✔ https://codeforces.com/problemset/problem/1610/B [Reading: 1Min Ac: 11 mins]
 44. ✔✔✔ https://codeforces.com/problemset/problem/1607/C [Reading: 3Mins Ac: 15 Mins]
-45.https://codeforces.com/problemset/problem/1606/B
+45. ✔✔✔ https://codeforces.com/problemset/problem/1606/B [Issue: Language Problem(c++ , issue with handling big numbers)  Logic: 26 Mins]
 46.https://codeforces.com/problemset/problem/1605/B
 47.https://codeforces.com/problemset/problem/1602/B
 48.https://codeforces.com/problemset/problem/1594/B
