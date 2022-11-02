@@ -54,7 +54,7 @@ CSES-Mathmatics ,Searching and sorting.
 50. ✔✔✔ https://codeforces.com/problemset/problem/1593/C [Logic: 25Mins Ac: 47mins]
 51. ✔✔✔ https://codeforces.com/problemset/problem/1584/B [Logic: 30Mins Ac: 37Mins Issue: Issue with c++(handling big number)]
 52. ✔✔✔ https://codeforces.com/problemset/problem/1579/E1 [Ac: 16 Mins]
-53.https://codeforces.com/problemset/problem/1575/A
+53. ✔✔✔ https://codeforces.com/problemset/problem/1173/B [Ac: 31 Mins]
 54.https://codeforces.com/problemset/problem/1574/B
 55.https://codeforces.com/problemset/problem/1569/B
 56.https://codeforces.com/problemset/problem/1567/B
@@ -101,7 +101,7 @@ CSES-Mathmatics ,Searching and sorting.
 97.https://codeforces.com/problemset/problem/1360/C
 98.https://codeforces.com/problemset/problem/1326/A
 99.https://codeforces.com/problemset/problem/1263/A
-100.https://codeforces.com/problemset/problem/1173/B
+100.https://codeforces.com/problemset/problem/1575/A
 
 Binary Search: 
 1.https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/ [Logic: 30mins ISSUE: Didn't read the description carefully. Ac: 1H20Mins]
