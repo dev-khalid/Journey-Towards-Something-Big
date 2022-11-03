@@ -55,8 +55,8 @@ CSES-Mathmatics ,Searching and sorting.
 51. ✔✔✔ https://codeforces.com/problemset/problem/1584/B [Logic: 30Mins Ac: 37Mins Issue: Issue with c++(handling big number)]
 52. ✔✔✔ https://codeforces.com/problemset/problem/1579/E1 [Ac: 16 Mins]
 53. ✔✔✔ https://codeforces.com/problemset/problem/1173/B [Ac: 31 Mins]
-54.https://codeforces.com/problemset/problem/1574/B
-55.https://codeforces.com/problemset/problem/1569/B
+54. *** https://codeforces.com/problemset/problem/1574/B [Issue: Weakness in Mathmatics. Tried with full concentration but failed for lack of math proof.]
+55. ✔✔✔ https://codeforces.com/problemset/problem/1569/B [Ac: 45 mins Issue: Presentation error (placed small latter 'x' rather than captical letter which is given in ans)]
 56.https://codeforces.com/problemset/problem/1567/B
 57.https://codeforces.com/problemset/problem/1566/D1
 58.https://codeforces.com/problemset/problem/1566/C
@@ -105,3 +105,8 @@ CSES-Mathmatics ,Searching and sorting.
 
 Binary Search: 
 1.https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/ [Logic: 30mins ISSUE: Didn't read the description carefully. Ac: 1H20Mins]
+
+
+Area I need to work on: 
+1.Patience 
+2.Mathmatical problems
