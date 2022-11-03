@@ -57,7 +57,7 @@ CSES-Mathmatics ,Searching and sorting.
 53. ✔✔✔ https://codeforces.com/problemset/problem/1173/B [Ac: 31 Mins]
 54. *** https://codeforces.com/problemset/problem/1574/B [Issue: Weakness in Mathmatics. Tried with full concentration but failed for lack of math proof.]
 55. ✔✔✔ https://codeforces.com/problemset/problem/1569/B [Ac: 45 mins Issue: Presentation error (placed small latter 'x' rather than captical letter which is given in ans)]
-56.https://codeforces.com/problemset/problem/1567/B
+56. *** https://codeforces.com/problemset/problem/1567/B [Issue: Failed to proof the math behind it . ]
 57.https://codeforces.com/problemset/problem/1566/D1
 58.https://codeforces.com/problemset/problem/1566/C
 59.https://codeforces.com/problemset/problem/1562/B
@@ -109,4 +109,4 @@ Binary Search:
 
 Area I need to work on: 
 1.Patience 
-2.Mathmatical problems
+2.Mathmatical problems [Proof]
