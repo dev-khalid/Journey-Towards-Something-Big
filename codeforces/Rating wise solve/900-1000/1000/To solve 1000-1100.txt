@@ -59,7 +59,7 @@ CSES-Mathmatics ,Searching and sorting.
 55. ✔✔✔ https://codeforces.com/problemset/problem/1569/B [Ac: 45 mins Issue: Presentation error (placed small latter 'x' rather than captical letter which is given in ans)]
 56. *** https://codeforces.com/problemset/problem/1567/B [Issue: Failed to proof the math behind it . ]
 57. ✔✔✔ https://codeforces.com/problemset/problem/1566/D1 [Ac: 50 Mins Logic: 27 Mins Issue: Missed an edge case . Dind't tested it well.]
-58.https://codeforces.com/problemset/problem/1566/C
+58. ✔✔✔ https://codeforces.com/problemset/problem/1566/C [Logic: 5Mins Ac: 18Mins Issue: Missed an edge case .Didn't tested it well.]
 59.https://codeforces.com/problemset/problem/1562/B
 60.https://codeforces.com/problemset/problem/1557/B
 61.https://codeforces.com/problemset/problem/1550/B
