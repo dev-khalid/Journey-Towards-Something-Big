@@ -63,7 +63,7 @@ CSES-Mathmatics ,Searching and sorting.
 59. ✔✔✔ https://codeforces.com/problemset/problem/1562/B [Logic: 5Mins Ac: 35Mins Issue: Ddin't read the requirements properly. ]
 60. ✔✔✔ https://codeforces.com/problemset/problem/1557/B [Logic: 10Mins Ac: 1H Issue: Have the issue with implementation . Trapped with the iterator pointer issue . ]
 61. ✔✔✔ https://codeforces.com/problemset/problem/1550/B [Logic: 15Mins Issue: Ddin't test the edge cases well. Ac: 41 Mins]
-62.https://codeforces.com/problemset/problem/1547/C
+62. ✅✅ https://codeforces.com/problemset/problem/1547/C [Ac: 1H Issue: Begin so much impatient in these days thats why i am missing the edge cases or doesnt reading the statement properly.]
 63.https://codeforces.com/problemset/problem/1539/A
 64.https://codeforces.com/problemset/problem/1534/B
 65.https://codeforces.com/problemset/problem/1529/B
