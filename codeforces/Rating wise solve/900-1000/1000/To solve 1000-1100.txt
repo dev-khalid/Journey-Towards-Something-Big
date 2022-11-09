@@ -66,7 +66,7 @@ CSES-Mathmatics ,Searching and sorting.
 62. ✅✅ https://codeforces.com/problemset/problem/1547/C [Ac: 1H Issue: Begin so much impatient in these days thats why i am missing the edge cases or doesnt reading the statement properly.]
 63. ✅✅ https://codeforces.com/problemset/problem/1539/A [Ac: 45Mins Idea: 30 Mins Improved: Could have done the proof by myself. Issue : A very little thing needed to be considered ]
 64. ❌❌ https://codeforces.com/problemset/problem/1534/B
-65. ❌❌ https://codeforces.com/problemset/problem/1529/B 
+65. ❌❌ https://codeforces.com/problemset/problem/1529/B [Issue: Cound't get to the last part of the logic.Lack of attention.]
 66.https://codeforces.com/problemset/problem/1523/B
 67.https://codeforces.com/problemset/problem/1521/A
 68.https://codeforces.com/problemset/problem/1520/C
