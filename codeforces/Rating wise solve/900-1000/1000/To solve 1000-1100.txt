@@ -2,71 +2,71 @@ All the problemset related to string , two pointer , binary search , suffix arra
 CSES-Mathmatics ,Searching and sorting. 
 
 
-1. ✔✔✔ https://codeforces.com/problemset/problem/1726/B
-2. ✔✔✔ https://codeforces.com/problemset/problem/1725/B
-3. ✔✔✔ https://codeforces.com/problemset/problem/1722/D
-4. ✔✔✔ https://codeforces.com/problemset/problem/1721/B
-5. ***  https://codeforces.com/problemset/problem/1717/B  [ ISSUE: Didn't read the problem properly. ]
-6. ✔✔✔ https://codeforces.com/problemset/problem/1712/C
-7. ✔✔✔ https://codeforces.com/problemset/problem/1708/B
-8. ✔✔✔ https://codeforces.com/problemset/problem/1706/B
-9. ✔✔✔ https://codeforces.com/problemset/problem/1703/D
-10. ✔✔✔ https://codeforces.com/problemset/problem/1702/C
-11. ✔✔✔ https://codeforces.com/problemset/problem/1700/B
-12. ✔✔✔ https://codeforces.com/problemset/problem/1692/D
-13. ✔✔✔ https://codeforces.com/problemset/problem/1691/B
-14. ✔✔✔ https://codeforces.com/problemset/problem/1690/D
-15. ✔✔✔ https://codeforces.com/problemset/problem/1685/A
-16. ✔✔✔ https://codeforces.com/problemset/problem/1682/B
-17. *** https://codeforces.com/problemset/problem/1202/A  [Thinked about : 1H.  ISSUE: Didn't read the problem properly. ] 
-18.✔✔✔ https://codeforces.com/problemset/problem/1176/B [43 Mins. Logic Found: 15 min . Missed a single portion that took me more 30 mins. ]
-19. ✔✔✔ https://codeforces.com/problemset/problem/1676/E (16 mins)
-20. ✔✔✔ https://codeforces.com/problemset/problem/1675/C [40 mins Logic: 20 mins ISSUE: Didn't read the problem properly ]
-21. ✔✔✔ https://codeforces.com/problemset/problem/1672/C [30 mins Logic: 15 mins]
-22. ✔✔✔ https://codeforces.com/problemset/problem/1669/D [15 Mins Logic : 5 mins]
-23. *** https://codeforces.com/problemset/problem/1659/A [Nothing found : 1:20 H Left for next day ISSUE: Didn't know or couln't catch the concept]
-24. *** https://codeforces.com/problemset/problem/1656/B [ISSUE : Dependent on Input instead of proving theory  & also lost patience ]
-25. ✔✔✔ https://codeforces.com/problemset/problem/1638/B [30 mins Reason for being fast : tackled previous mistakes]
-26. ✔✔✔ https://codeforces.com/problemset/problem/1637/B [53 mmins . Logic : 25 Mins . Logic 2: 50 Mins . Reason for being late : Tough word and also not reading the problem once again. Thinked the problem in a tough way]
-27. ✔✔✔ https://codeforces.com/problemset/problem/1634/C [50 mins. Logic: 20 mins . Issue : Peeped up a little on test case and finally found that i hadn't test properly. ]
-28. ✔✔✔ https://codeforces.com/problemset/problem/1633/C [Logic was okay . ISSUE : Ceil using long long was an issue . I found a tricky way to solve that . ]
-29. ✔✔✔ https://codeforces.com/problemset/problem/1632/B 
-30. ✔✔✔ https://codeforces.com/problemset/problem/1631/B [Logic: 22 Mins Ac: 51 Mins Issue : Bad at implementation ] 
-31. ✔✔✔ https://codeforces.com/problemset/problem/1632/B [Logic : 17 Min. Error : 22 Min Ac: 25 Min. Issue : Missed an edge case.]
-32. ✔✔✔ https://codeforces.com/problemset/problem/1626/B [Logic : 20 mins Logic 2: 1H 10 Mins Issue: Though the problem too much hardly. Ac: 1h 15mins]
-33. ✔✔✔ https://codeforces.com/problemset/problem/1625/B [Reading : 10 Mins Ac: 30 Mins]
-34. ✔✔✔ https://codeforces.com/problemset/problem/1624/C [Ac: 30 mins , Reading: 2 Mins]
-35. ✔✔✔ https://codeforces.com/problemset/problem/1623/B [Logic: 1H 30 mins Ac: 1H 45 mins ISSUE: Maybe sickness || couldn't focus properly]
-36. ✔✔✔ https://codeforces.com/problemset/problem/1622/B [Reading: 5Mins Logic: 20 mins Ac: 35mins]
-37. ✔✔✔ https://codeforces.com/problemset/problem/1620/B [Reading: 7mins Logic: 14 mins Issue: Mised the range Ac: 30 mins]
-38. ✔✔✔ https://codeforces.com/problemset/problem/1618/C [Reading: 1Min Logic: 6Mins Issue: typeing error & lack of long long int knowledge (could be better if i had used python) Ac: 45 mins]
-39. ✔✔✔ https://codeforces.com/problemset/problem/1616/B [Reading: 3 mins , Logic: 5 mins Issue : Missed one of the logic . Ac: 34 mins]
-40. ✔✔✔ https://codeforces.com/problemset/problem/1614/B
-41. ✔✔✔ https://codeforces.com/problemset/problem/1613/B [Ac: 23 Mins]
-42. *** https://codeforces.com/problemset/problem/1611/C [Issue: Trash thinking and going over input not about theory. ]
-43. ✔✔✔ https://codeforces.com/problemset/problem/1610/B [Reading: 1Min Ac: 11 mins]
-44. ✔✔✔ https://codeforces.com/problemset/problem/1607/C [Reading: 3Mins Ac: 15 Mins]
-45. ✔✔✔ https://codeforces.com/problemset/problem/1606/B [Issue: Language Problem(c++ , issue with handling big numbers)  Logic: 26 Mins]
-46. ✔✔✔ https://codeforces.com/problemset/problem/1605/B [Ac: 26 Mins]
-47. ✔✔✔ https://codeforces.com/problemset/problem/1602/B [Ac: 1H 20 Mins Issue: Lack of memory management knowledge & also time complexity calculation . (Logic was ok) Problem on implementation]
-48. ✔✔✔ https://codeforces.com/problemset/problem/1594/B [Ac: 38Mins, Issue: Lack of concentration ]
-49. *** https://codeforces.com/problemset/problem/1593/D1 [Issue: Ddin't found the logic. Weakness of mathmatical proof.]
-50. ✔✔✔ https://codeforces.com/problemset/problem/1593/C [Logic: 25Mins Ac: 47mins]
-51. ✔✔✔ https://codeforces.com/problemset/problem/1584/B [Logic: 30Mins Ac: 37Mins Issue: Issue with c++(handling big number)]
-52. ✔✔✔ https://codeforces.com/problemset/problem/1579/E1 [Ac: 16 Mins]
-53. ✔✔✔ https://codeforces.com/problemset/problem/1173/B [Ac: 31 Mins]
-54. *** https://codeforces.com/problemset/problem/1574/B [Issue: Weakness in Mathmatics. Tried with full concentration but failed for lack of math proof.]
-55. ✔✔✔ https://codeforces.com/problemset/problem/1569/B [Ac: 45 mins Issue: Presentation error (placed small latter 'x' rather than captical letter which is given in ans)]
-56. *** https://codeforces.com/problemset/problem/1567/B [Issue: Failed to proof the math behind it . ]
-57. ✔✔✔ https://codeforces.com/problemset/problem/1566/D1 [Ac: 50 Mins Logic: 27 Mins Issue: Missed an edge case . Dind't tested it well.]
-58. ✔✔✔ https://codeforces.com/problemset/problem/1566/C [Logic: 5Mins Ac: 18Mins Issue: Missed an edge case .Didn't tested it well.]
-59. ✔✔✔ https://codeforces.com/problemset/problem/1562/B [Logic: 5Mins Ac: 35Mins Issue: Ddin't read the requirements properly. ]
-60. ✔✔✔ https://codeforces.com/problemset/problem/1557/B [Logic: 10Mins Ac: 1H Issue: Have the issue with implementation . Trapped with the iterator pointer issue . ]
-61. ✔✔✔ https://codeforces.com/problemset/problem/1550/B [Logic: 15Mins Issue: Ddin't test the edge cases well. Ac: 41 Mins]
+1. ✅✅ https://codeforces.com/problemset/problem/1726/B
+2. ✅✅ https://codeforces.com/problemset/problem/1725/B
+3. ✅✅ https://codeforces.com/problemset/problem/1722/D
+4. ✅✅ https://codeforces.com/problemset/problem/1721/B
+5. ❌❌ https://codeforces.com/problemset/problem/1717/B  [ ISSUE: Didn't read the problem properly. ]
+6. ✅✅ https://codeforces.com/problemset/problem/1712/C
+7. ✅✅ https://codeforces.com/problemset/problem/1708/B
+8. ✅✅ https://codeforces.com/problemset/problem/1706/B
+9. ✅✅ https://codeforces.com/problemset/problem/1703/D
+10. ✅✅ https://codeforces.com/problemset/problem/1702/C
+11. ✅✅ https://codeforces.com/problemset/problem/1700/B
+12. ✅✅ https://codeforces.com/problemset/problem/1692/D
+13. ✅✅ https://codeforces.com/problemset/problem/1691/B
+14. ✅✅ https://codeforces.com/problemset/problem/1690/D
+15. ✅✅ https://codeforces.com/problemset/problem/1685/A
+16. ✅✅ https://codeforces.com/problemset/problem/1682/B
+17. ❌❌https://codeforces.com/problemset/problem/1202/A  [Thinked about : 1H.  ISSUE: Didn't read the problem properly. ] 
+18.✅✅ https://codeforces.com/problemset/problem/1176/B [43 Mins. Logic Found: 15 min . Missed a single portion that took me more 30 mins. ]
+19. ✅✅ https://codeforces.com/problemset/problem/1676/E (16 mins)
+20. ✅✅ https://codeforces.com/problemset/problem/1675/C [40 mins Logic: 20 mins ISSUE: Didn't read the problem properly ]
+21. ✅✅ https://codeforces.com/problemset/problem/1672/C [30 mins Logic: 15 mins]
+22. ✅✅ https://codeforces.com/problemset/problem/1669/D [15 Mins Logic : 5 mins]
+23. ❌❌https://codeforces.com/problemset/problem/1659/A [Nothing found : 1:20 H Left for next day ISSUE: Didn't know or couln't catch the concept]
+24. ❌❌https://codeforces.com/problemset/problem/1656/B [ISSUE : Dependent on Input instead of proving theory  & also lost patience ]
+25. ✅✅ https://codeforces.com/problemset/problem/1638/B [30 mins Reason for being fast : tackled previous mistakes]
+26. ✅✅ https://codeforces.com/problemset/problem/1637/B [53 mmins . Logic : 25 Mins . Logic 2: 50 Mins . Reason for being late : Tough word and also not reading the problem once again. Thinked the problem in a tough way]
+27. ✅✅ https://codeforces.com/problemset/problem/1634/C [50 mins. Logic: 20 mins . Issue : Peeped up a little on test case and finally found that i hadn't test properly. ]
+28. ✅✅ https://codeforces.com/problemset/problem/1633/C [Logic was okay . ISSUE : Ceil using long long was an issue . I found a tricky way to solve that . ]
+29. ✅✅ https://codeforces.com/problemset/problem/1632/B 
+30. ✅✅ https://codeforces.com/problemset/problem/1631/B [Logic: 22 Mins Ac: 51 Mins Issue : Bad at implementation ] 
+31. ✅✅ https://codeforces.com/problemset/problem/1632/B [Logic : 17 Min. Error : 22 Min Ac: 25 Min. Issue : Missed an edge case.]
+32. ✅✅ https://codeforces.com/problemset/problem/1626/B [Logic : 20 mins Logic 2: 1H 10 Mins Issue: Though the problem too much hardly. Ac: 1h 15mins]
+33. ✅✅ https://codeforces.com/problemset/problem/1625/B [Reading : 10 Mins Ac: 30 Mins]
+34. ✅✅ https://codeforces.com/problemset/problem/1624/C [Ac: 30 mins , Reading: 2 Mins]
+35. ✅✅ https://codeforces.com/problemset/problem/1623/B [Logic: 1H 30 mins Ac: 1H 45 mins ISSUE: Maybe sickness || couldn't focus properly]
+36. ✅✅ https://codeforces.com/problemset/problem/1622/B [Reading: 5Mins Logic: 20 mins Ac: 35mins]
+37. ✅✅ https://codeforces.com/problemset/problem/1620/B [Reading: 7mins Logic: 14 mins Issue: Mised the range Ac: 30 mins]
+38. ✅✅ https://codeforces.com/problemset/problem/1618/C [Reading: 1Min Logic: 6Mins Issue: typeing error & lack of long long int knowledge (could be better if i had used python) Ac: 45 mins]
+39. ✅✅ https://codeforces.com/problemset/problem/1616/B [Reading: 3 mins , Logic: 5 mins Issue : Missed one of the logic . Ac: 34 mins]
+40. ✅✅ https://codeforces.com/problemset/problem/1614/B
+41. ✅✅ https://codeforces.com/problemset/problem/1613/B [Ac: 23 Mins]
+42. ❌❌https://codeforces.com/problemset/problem/1611/C [Issue: Trash thinking and going over input not about theory. ]
+43. ✅✅ https://codeforces.com/problemset/problem/1610/B [Reading: 1Min Ac: 11 mins]
+44. ✅✅ https://codeforces.com/problemset/problem/1607/C [Reading: 3Mins Ac: 15 Mins]
+45. ✅✅ https://codeforces.com/problemset/problem/1606/B [Issue: Language Problem(c++ , issue with handling big numbers)  Logic: 26 Mins]
+46. ✅✅ https://codeforces.com/problemset/problem/1605/B [Ac: 26 Mins]
+47. ✅✅ https://codeforces.com/problemset/problem/1602/B [Ac: 1H 20 Mins Issue: Lack of memory management knowledge & also time complexity calculation . (Logic was ok) Problem on implementation]
+48. ✅✅ https://codeforces.com/problemset/problem/1594/B [Ac: 38Mins, Issue: Lack of concentration ]
+49. ❌❌https://codeforces.com/problemset/problem/1593/D1 [Issue: Ddin't found the logic. Weakness of mathmatical proof.]
+50. ✅✅ https://codeforces.com/problemset/problem/1593/C [Logic: 25Mins Ac: 47mins]
+51. ✅✅ https://codeforces.com/problemset/problem/1584/B [Logic: 30Mins Ac: 37Mins Issue: Issue with c++(handling big number)]
+52. ✅✅ https://codeforces.com/problemset/problem/1579/E1 [Ac: 16 Mins]
+53. ✅✅ https://codeforces.com/problemset/problem/1173/B [Ac: 31 Mins]
+54. ❌❌https://codeforces.com/problemset/problem/1574/B [Issue: Weakness in Mathmatics. Tried with full concentration but failed for lack of math proof.]
+55. ✅✅ https://codeforces.com/problemset/problem/1569/B [Ac: 45 mins Issue: Presentation error (placed small latter 'x' rather than captical letter which is given in ans)]
+56. ❌❌https://codeforces.com/problemset/problem/1567/B [Issue: Failed to proof the math behind it . ]
+57. ✅✅ https://codeforces.com/problemset/problem/1566/D1 [Ac: 50 Mins Logic: 27 Mins Issue: Missed an edge case . Dind't tested it well.]
+58. ✅✅ https://codeforces.com/problemset/problem/1566/C [Logic: 5Mins Ac: 18Mins Issue: Missed an edge case .Didn't tested it well.]
+59. ✅✅ https://codeforces.com/problemset/problem/1562/B [Logic: 5Mins Ac: 35Mins Issue: Ddin't read the requirements properly. ]
+60. ✅✅ https://codeforces.com/problemset/problem/1557/B [Logic: 10Mins Ac: 1H Issue: Have the issue with implementation . Trapped with the iterator pointer issue . ]
+61. ✅✅ https://codeforces.com/problemset/problem/1550/B [Logic: 15Mins Issue: Ddin't test the edge cases well. Ac: 41 Mins]
 62. ✅✅ https://codeforces.com/problemset/problem/1547/C [Ac: 1H Issue: Begin so much impatient in these days thats why i am missing the edge cases or doesnt reading the statement properly.]
 63. ✅✅ https://codeforces.com/problemset/problem/1539/A [Ac: 45Mins Idea: 30 Mins Improved: Could have done the proof by myself. Issue : A very little thing needed to be considered ]
-64.https://codeforces.com/problemset/problem/1534/B
-65.https://codeforces.com/problemset/problem/1529/B
+64. ❌❌ https://codeforces.com/problemset/problem/1534/B
+65. ❌❌ https://codeforces.com/problemset/problem/1529/B 
 66.https://codeforces.com/problemset/problem/1523/B
 67.https://codeforces.com/problemset/problem/1521/A
 68.https://codeforces.com/problemset/problem/1520/C
@@ -97,7 +97,7 @@ CSES-Mathmatics ,Searching and sorting.
 93.https://codeforces.com/problemset/problem/1430/C
 94.https://codeforces.com/problemset/problem/1421/B
 95.https://codeforces.com/problemset/problem/1419/D1
-96. ✔✔✔ https://codeforces.com/problemset/problem/1382/B [Logic: 25Mins Reading: 3 Mins Ac: 32 Mins]
+96. ✅✅ https://codeforces.com/problemset/problem/1382/B [Logic: 25Mins Reading: 3 Mins Ac: 32 Mins]
 97.https://codeforces.com/problemset/problem/1360/C
 98.https://codeforces.com/problemset/problem/1326/A
 99.https://codeforces.com/problemset/problem/1263/A
