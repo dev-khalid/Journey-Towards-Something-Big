@@ -1,3 +1,15 @@
+##Prority 
+All of this for math related problem on codeforces. (As i noticed that i am pretty much weak on proof techniques or finding the formula.)
+    #Math 
+        https://www.youtube.com/watch?v=wBFIowoN1s4
+
+        1.https://www.youtube.com/watch?v=wBFIowoN1s4
+        2.https://www.youtube.com/watch?v=tE3BCA5FueM
+        3.https://www.youtube.com/watch?v=i_mKApcoiPc&list=PLN4aKSfpk8TQUiURV1k70At4Tj5oKb92i (16)
+        4.https://www.youtube.com/watch?v=tE3BCA5FueM
+    #AdHoc
+        1.https://www.youtube.com/watch?v=5KJK735VF0g
+
 1.Binary Search 
     *Monotonic functions (On monotinic functions binary search can be applied )
     i. ✔✔✔ https://codeforces.com/edu/course/2/lesson/6 {Resource_Type: "Advanced"}
@@ -48,6 +60,8 @@
 
 6.Sliding window 
     i. https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj (0/13)
+
+
 
 
 *Start Date - 21/09/2022
