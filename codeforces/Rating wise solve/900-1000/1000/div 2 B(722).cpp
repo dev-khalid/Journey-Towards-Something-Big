@@ -9,109 +9,30 @@ int main()
         int n;
         cin >> n;
         vector<int> v(n);
-        vector<pair<int,int>> ans;
         for(int i = 0; i < n; i++)
         {
             cin >> v[i];
-            if(v[i]<=0)
-                ans.push_back({v[i],i});
         }
-        if(n==1)
+        int mn = INT_MAX;
+        sort(v.begin(),v.end());
+        int ans = 0;
+        for(auto it: v)
         {
-            cout << 1 << endl;
-            continue;
-        }
-
-
-
-        //now find their minimum difference
-        int diff = INT_MAX;
-        if(ans.size()==1)
-        {
-
-
-            //check if there is 2 same element exist before and after the array
-
-            int boundary = ans[0].second;
-
-            //try finding min before boundary and after boundary
-
-            if(boundary==0 || boundary==n-1)
+            if(it<=0)
             {
-                cout << 2 << endl;
+                ans++;
             }
             else
-            {
-                //left and right half exists
-                int left = v[0];
-                int right = v[n-1];
-                int i = 0;
-                while(i<boundary)
-                {
-                    left = min(v[i++],left);
-                }
-                i = n-1;
-                while(i>boundary)
-                {
-                    right = min(v[i--],right);
-                }
-                diff = min(diff,abs(left-ans[0].first));
-                diff = min(diff,abs(right-ans[0].first));
-                if(left<=diff && right <=diff)
-                {
-                    cout << 3 << endl;
-                }
-                else
-                {
-                    cout << 2 << endl;
-                }
-            }
+                mn = min(mn,it);
         }
-        else if(ans.size()==0)
+        bool flag = (mn<INT_MAX);
+        for(int i = 1; i < n; i++)
         {
-            cout << 1 << endl;
-        }
-        else
-        {
-            int k = ans.size();
-            for(int i = 1; i < k; i++)
+            if(v[i]<=0)
             {
-                diff = min(diff,abs(ans[i].first-ans[i-1].first));
-
+                flag &=(v[i]-v[i-1]>=mn);
             }
-            //cout << "Minimum Difference : " << diff << endl;
-            int cnt = 0;
-            int left = -1, right;
-            for(int j = 0; j < ans.size(); j++)
-            {
-                //cout << "Going from " << left+1 << " to " << ans[j].second << endl;
-                for(int i = left+1; i < ans[j].second ; i++)
-                {
-                    if(v[i]<=diff)
-                    {
-
-                        cnt++;
-                        break;
-                    }
-                }
-                left = ans[j].second;
-                if(j==ans.size()-1)
-                {
-                    for(int i = left+1;   i < n ; i++)
-                    {
-                        if(v[i]<=diff)
-                        {
-                            cnt++;
-                            break;
-                        }
-                    }
-                }
-            }
-            cout << cnt+ans.size() << endl;
-
         }
+        cout << (flag? ans+1 : ans ) << endl;
     }
 }
-//eto baje style er code ekta manush kemne kore ?
-//try balancing development and competitive programming .
-//competitive programming needs a pure 6 hours of hard work each and every day.
