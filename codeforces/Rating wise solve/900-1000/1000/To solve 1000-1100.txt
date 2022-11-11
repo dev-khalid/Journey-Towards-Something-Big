@@ -68,7 +68,7 @@ CSES-Mathmatics ,Searching and sorting.
 64. ❌❌ https://codeforces.com/problemset/problem/1534/B
 65. ❌❌ https://codeforces.com/problemset/problem/1529/B [Issue: Cound't get to the last part of the logic.Lack of attention & proof techniques.]
 66. ❌❌ https://codeforces.com/problemset/problem/1523/B [Some of the hints will always be there . Like even is a hint to work in pair.Then try to do some operation . ]
-67.https://codeforces.com/problemset/problem/1521/A
+67. ✅✅ https://codeforces.com/problemset/problem/1521/A [Ac: 37Mins Issue: Missed edge case ]
 68.https://codeforces.com/problemset/problem/1520/C
 69.https://codeforces.com/problemset/problem/1515/B
 70.https://codeforces.com/problemset/problem/1511/C
