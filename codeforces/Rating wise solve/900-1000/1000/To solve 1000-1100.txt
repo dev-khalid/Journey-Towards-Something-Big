@@ -104,8 +104,11 @@ CSES-Mathmatics ,Searching and sorting.
 100.https://codeforces.com/problemset/problem/1575/A
 
 Binary Search: 
-1.https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/ [Logic: 30mins ISSUE: Didn't read the description carefully. Ac: 1H20Mins]
+1. ✅✅ https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/ [Logic: 30mins ISSUE: Didn't read the description carefully. Ac: 1H20Mins]
 
+Math: 
+1.https://codeforces.com/problemset/problem/707/C
+2.https://codeforces.com/problemset/problem/1305/C
 
 Area I need to work on: 
 1.Patience 
