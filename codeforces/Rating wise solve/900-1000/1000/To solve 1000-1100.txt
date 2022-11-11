@@ -67,7 +67,7 @@ CSES-Mathmatics ,Searching and sorting.
 63. ✅✅ https://codeforces.com/problemset/problem/1539/A [Ac: 45Mins Idea: 30 Mins Improved: Could have done the proof by myself. Issue : A very little thing needed to be considered ]
 64. ❌❌ https://codeforces.com/problemset/problem/1534/B
 65. ❌❌ https://codeforces.com/problemset/problem/1529/B [Issue: Cound't get to the last part of the logic.Lack of attention & proof techniques.]
-66.https://codeforces.com/problemset/problem/1523/B
+66. ❌❌ https://codeforces.com/problemset/problem/1523/B [Some of the hints will always be there . Like even is a hint to work in pair.Then try to do some operation . ]
 67.https://codeforces.com/problemset/problem/1521/A
 68.https://codeforces.com/problemset/problem/1520/C
 69.https://codeforces.com/problemset/problem/1515/B
