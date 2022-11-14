@@ -11,7 +11,9 @@ int main()
         cin >> s;
         int odd = 0, even = 0,aop= 0,aep=0;
         int n = s.size();
-        for(int i = n-1; i>=0; i--)
+
+        reverse(s.begin(),s.end());
+        for(int i = 0; i < n; i++)
         {
             if(s[i]=='1')
             {
@@ -40,7 +42,7 @@ int main()
         {
             cout << 0 << endl;
         }
-        else if(abs(even+odd)==1)
+        else if((even+odd)==1)
         {
             cout << -1 << endl;
         }
@@ -48,117 +50,164 @@ int main()
         {
             int diff = abs(even-odd);
             diff%=3;
-            if(diff==2)
+            if(diff==2 || !even || !odd)
             {
                 cout << 1 << endl;
+                continue;
+            }
+
+            int ans = INT_MAX;
+            if(even>odd)
+            {
+                //even boro
+
+
+                //try choto -> boro
+                diff = abs(even-odd+2);
+                if(diff%3==0)
+                {
+
+                    //even position dorkar
+                    if(aep)
+                    {
+                        ans = min(ans,3);
+                        for(int i = 1; i<=n; i++)
+                        {
+                            int next = i+1, prev = i-1;
+                            if(i&1 && s[i-1]=='1')
+                            {
+                                if(next<=n && s[next-1]=='0')
+                                {
+                                    ans = 1;
+                                    break;
+                                }
+                                if(prev>=1 && s[prev-1]=='0')
+                                {
+                                    ans = 1;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                //try boro->choto
+                diff=abs(even-1-odd-1);
+                if(diff%3==0)
+                {
+
+                    //odd position dorkar
+                    if(aop)
+                    {
+                        ans = min(ans,3);
+                        for(int i = 1; i<=n; i++)
+                        {
+                            int next = i+1, prev = i-1;
+                            if(i%2==0 && s[i-1]=='1')
+                            {
+                                if(next<=n && s[next-1]=='0')
+                                {
+                                    ans = 1;
+                                    break;
+                                }
+                                if(prev>=1 && s[prev-1]=='0')
+                                {
+                                    ans = 1;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
             }
             else
             {
-                int ans = INT_MAX;
-                reverse(s.begin(),s.end());
-                if(even<odd)
+                //odd boro
+
+
+                //try choto -> boro
+                //even ke dhore odd bananbo odd position dorkar
+                diff=abs(odd+2-even);
+                if(diff%3==0)
                 {
-                    //trying to send an even index to the next available odd index
-                    for(int i = 1; i <= n; i++)
+
+                    //odd position dorkar
+                    if(aop)
                     {
-                        int id=i+1,nextId=i+3;
-                        //if current index is odd and element is zero
-                        if(i&1 && s[i-1]=='0')
+
+                        ans = min(ans,3);
+                        for(int i = 1; i<=n; i++)
                         {
-
-                            //already found a zero now finding one
-                            if(id<=n && s[id-1]=='1')
+                            int next = i+1, prev = i-1;
+                            if(i%2==0 && s[i-1]=='1')
                             {
-                                ans = 1;
-                                break;
-                            }
-                            if(nextId<=n  && s[nextId-1]=='1')
-                            {
-                                ans = min(ans,3);
-                            }
-                        }
-
-                        //if current index is even and element is one
-                        if(i%2==0 && s[i-1]=='1')
-                        {
-
-                            //already found a zero now finding one
-                            if(id<=n && s[id-1]=='0')
-                            {
-                                ans = 1;
-                            }
-                            if(nextId<=n  && s[nextId-1]=='0')
-                            {
-                                ans = min(ans,3);
+                                if(next<=n && s[next-1]=='0')
+                                {
+                                    ans = 1;
+                                    break;
+                                }
+                                if(prev>=1 && s[prev-1]=='0')
+                                {
+                                    ans = 1;
+                                    break;
+                                }
                             }
                         }
                     }
                 }
-                else
+
+
+                //try boro->choto
+                diff = abs(odd-even-2);
+
+                if(diff%3==0)
                 {
 
-                    //trying to send an odd  index 1 to the next available even index 0
-                    for(int i = 1; i <= n; i++)
+                    //even position dorkar
+                    if(aep)
                     {
-                        int id=i+1,nextId=i+3;
-                        //if current index is even and element is zero
-                        if(i%2==0 && s[i-1]=='0')
+                        ans = min(ans,3);
+                        for(int i = 1; i<=n; i++)
                         {
-
-                            //already found a zero now finding one
-                            if(id<=n && s[id-1]=='1')
+                            int next = i+1, prev = i-1;
+                            if(i&1 && s[i-1]=='1')
                             {
-                                ans = 1;
-                                break;
-                            }
-                            if(nextId<=n  && s[nextId-1]=='1')
-                            {
-                                ans = min(ans,3);
-                            }
-                        }
-
-                        //if current index is odd and element is one
-                        if(i&1 && s[i-1]=='1')
-                        {
-
-                            //already found a zero now finding one
-                            if(id<=n && s[id-1]=='0')
-                            {
-                                ans = 1;
-                            }
-                            if(nextId<=n  && s[nextId-1]=='0')
-                            {
-                                ans = min(ans,3);
+                                if(next<=n && s[next-1]=='0')
+                                {
+                                    ans = 1;
+                                    break;
+                                }
+                                if(prev>=1 && s[prev-1]=='0')
+                                {
+                                    ans = 1;
+                                    break;
+                                }
                             }
                         }
                     }
                 }
-                if(ans==INT_MAX)
-                {
-                    if(even<odd) {
-                        //try to move the biggest one also
-                        if(aep>=2) {
-                            ans=2;
-                        } else {
-                            ans=-1;
-                        }
-                    } else {
-                        if(aop>=2) {
-                            ans=2;
-                        } else {
-                            ans=-1;
-                        }
-                    }
-                    cout << ans << endl;
-                }
-                else
-                {
-                    cout << ans << endl;
-                }
+            }
+            if(ans==INT_MAX)
+            {
+                cout << -1 << endl;
+            }
+            else
+            {
+                cout << ans << endl;
             }
         }
 
     }
 }
 
-//101010111
+/**
+Not in my range .
+500
+11001
+11100
+111
+1010
+1110
+101010111
+0000
+*/
