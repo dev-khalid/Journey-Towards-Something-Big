@@ -73,7 +73,7 @@ CSES-Mathmatics ,Searching and sorting.
 69. ✅✅ https://codeforces.com/problemset/problem/1515/B [Ac: 30 Mins Issue: Didn't tested well at the time of logic building.]
 70. ✅✅ https://codeforces.com/problemset/problem/1511/C [Ac: 20Mins Logic: 13Mins]
 71. ✅✅ https://codeforces.com/problemset/problem/1511/B [Ac: 30Mins Logic: 20Mins]
-72.https://codeforces.com/problemset/problem/1509/B
+72. ✅✅ https://codeforces.com/problemset/problem/1509/B [Ac: 50Mins Logic: 35Mins]
 73.https://codeforces.com/problemset/problem/1506/C
 74.https://codeforces.com/problemset/problem/1499/B
 75.https://codeforces.com/problemset/problem/1496/B
