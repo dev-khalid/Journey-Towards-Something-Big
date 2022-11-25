@@ -81,7 +81,7 @@ CSES-Mathmatics ,Searching and sorting.
 77. ✅✅ https://codeforces.com/problemset/problem/1490/C [Ac: 15 Mins]
 78. ✅✅ https://codeforces.com/problemset/problem/1490/B [Ac: 40Mins Issue: Logic was simple but couldn't come up with the easier implementation fast.]
 79. ✅✅ https://codeforces.com/problemset/problem/1485/A [Ac: 25Mins]
-80. ✅✅ https://codeforces.com/problemset/problem/1481/B
+80. ✅✅ https://codeforces.com/problemset/problem/1481/B [Ac: 20Mins Issue: Missed Edge Case]
 81.https://codeforces.com/problemset/problem/1478/B
 82.https://codeforces.com/problemset/problem/1476/A
 83.https://codeforces.com/problemset/problem/1474/B
