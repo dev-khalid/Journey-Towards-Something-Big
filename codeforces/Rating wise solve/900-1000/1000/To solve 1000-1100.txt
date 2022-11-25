@@ -78,8 +78,8 @@ CSES-Mathmatics ,Searching and sorting.
 74. ❌❌ https://codeforces.com/problemset/problem/1499/B
 75. ✅✅ https://codeforces.com/problemset/problem/1496/B [Ac: 35Mins]
 76. ✅✅ https://codeforces.com/problemset/problem/1492/B [Ac: 40Mins]
-77.https://codeforces.com/problemset/problem/1490/C
-78.https://codeforces.com/problemset/problem/1490/B
+77. ✅✅ https://codeforces.com/problemset/problem/1490/C [Ac: 15 Mins]
+78. ✅✅ https://codeforces.com/problemset/problem/1490/B [Ac: 40Mins Issue: Logic was simple but couldn't come up with the easier implementation fast.]
 79.https://codeforces.com/problemset/problem/1485/A
 80.https://codeforces.com/problemset/problem/1481/B
 81.https://codeforces.com/problemset/problem/1478/B
