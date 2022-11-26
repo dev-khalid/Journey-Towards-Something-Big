@@ -4,24 +4,28 @@ int main()
 {
     int n,m;
     cin >> n >> m;
-    vector<string> v(n);
+    vector<pair<string,int>> v(n);
     for(int i = 0; i <n; i++)
     {
-        cin >> v[i];
+        cin >> v[i].first;
+        v[i].second = i+1;
+
     }
-    sort(v.begin(),v.end(),[](string a,string b)
+    for(int j = 0; j < n; j++)
     {
-        return a[0]<b[0];
-    });
-    if(m&1) {
-        //odd index .
-        //no need to sort it
-        //m-1 even index. sort using this thing ?
-    } else {
-    sort(v.begin(),v.end(),[](string a,string b)
+        for(int i = 1; i < m; i+=2)
+        {
+
+            v[j].first[i] = ('Z'-v[j].first[i])+'A';
+        }
+    }
+    sort(v.begin(),v.end(),[](pair<string,int> a,pair<string,int> b)
     {
-        return a[0]<b[0];
+        return a.first<b.first;
     });
+    for(auto it: v)
+    {
+        cout << it.second << " ";
     }
 
 }

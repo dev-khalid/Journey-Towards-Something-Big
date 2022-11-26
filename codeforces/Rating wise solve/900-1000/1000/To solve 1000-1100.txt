@@ -101,7 +101,7 @@ CSES-Mathmatics ,Searching and sorting.
 97.https://codeforces.com/problemset/problem/1360/C
 98.https://codeforces.com/problemset/problem/1326/A
 99.https://codeforces.com/problemset/problem/1263/A
-100.https://codeforces.com/problemset/problem/1575/A
+100. ❌❌ https://codeforces.com/problemset/problem/1575/A [Issue: Had no idea about this type of problem before.]
 
 Binary Search: 
 1. ✅✅ https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/ [Logic: 30mins ISSUE: Didn't read the description carefully. Ac: 1H20Mins]
