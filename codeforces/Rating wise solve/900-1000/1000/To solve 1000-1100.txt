@@ -83,7 +83,7 @@ CSES-Mathmatics ,Searching and sorting.
 79. ✅✅ https://codeforces.com/problemset/problem/1485/A [Ac: 25Mins]
 80. ✅✅ https://codeforces.com/problemset/problem/1481/B [Ac: 20Mins Issue: Missed Edge Case]
 81. ✅✅ https://codeforces.com/problemset/problem/1478/B [Ac: 35Mins ]
-82.https://codeforces.com/problemset/problem/1476/A
+82. ✅✅ https://codeforces.com/problemset/problem/1476/A [Ac: 25Mins ]
 83.https://codeforces.com/problemset/problem/1474/B
 84.https://codeforces.com/problemset/problem/1473/B
 85.https://codeforces.com/problemset/problem/1471/B
