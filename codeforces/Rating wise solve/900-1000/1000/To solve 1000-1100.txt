@@ -95,7 +95,7 @@ CSES-Mathmatics ,Searching and sorting.
 91.https://codeforces.com/problemset/problem/1447/B
 92.https://codeforces.com/problemset/problem/1438/B
 93.https://codeforces.com/problemset/problem/1430/C
-94.https://codeforces.com/problemset/problem/1421/B
+94. ❌❌ https://codeforces.com/problemset/problem/1421/B [Issue: Pretty much close to the idea but didn't proof the solution carefully . Less comfortable with 2D array.]
 95. ✅✅ https://codeforces.com/problemset/problem/1419/D1 [Ac: 15Mins]
 96. ✅✅ https://codeforces.com/problemset/problem/1382/B [Logic: 25Mins Reading: 3 Mins Ac: 32 Mins]
 97.https://codeforces.com/problemset/problem/1360/C
