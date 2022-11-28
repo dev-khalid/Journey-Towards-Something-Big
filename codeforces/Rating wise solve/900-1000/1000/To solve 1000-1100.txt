@@ -96,7 +96,7 @@ CSES-Mathmatics ,Searching and sorting.
 92.https://codeforces.com/problemset/problem/1438/B
 93.https://codeforces.com/problemset/problem/1430/C
 94.https://codeforces.com/problemset/problem/1421/B
-95.https://codeforces.com/problemset/problem/1419/D1
+95. ✅✅ https://codeforces.com/problemset/problem/1419/D1 [Ac: 15Mins]
 96. ✅✅ https://codeforces.com/problemset/problem/1382/B [Logic: 25Mins Reading: 3 Mins Ac: 32 Mins]
 97.https://codeforces.com/problemset/problem/1360/C
 98.https://codeforces.com/problemset/problem/1326/A
