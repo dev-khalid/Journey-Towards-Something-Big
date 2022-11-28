@@ -26,35 +26,14 @@ int main()
         }
         else
         {
-            //start with last 2 digit first
-            int o,e;
-            int limit;
-            limit = (2+n)/2;
-            cout << (2+limit)/2 << endl;
-            cout << 2 << " " << (n&1? n-1 : n) << endl;
-            if(n&1)
-            {
-                o = n, e = n-3;
+            cout << 2 << endl;
+            int last = n;
+            for(int i = n-1; i >= 1; i--) {
+                cout << i << " " << last << endl;
+                last = (i+last+1)/2;
             }
-            else
-            {
-                o = n-1, e = n-2;
-            }
-            for(int i = 3; i < limit; i++)
-            {
-                if(i&1)
-                {
-                    cout << i << " " << o<< endl;
-                    o-=2;
-                }
-                else
-                {
 
-                    cout << i << " " << e << endl;
-                    e-=2;
-                }
-            }
-            cout << 1 << " " << limit << endl;
+
         }
     }
 }
