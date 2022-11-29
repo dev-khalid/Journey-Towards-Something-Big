@@ -98,8 +98,8 @@ CSES-Mathmatics ,Searching and sorting.
 94. ❌❌ https://codeforces.com/problemset/problem/1421/B [Issue: Pretty much close to the idea but didn't proof the solution carefully . Less comfortable with 2D array.]
 95. ✅✅ https://codeforces.com/problemset/problem/1419/D1 [Ac: 15Mins]
 96. ✅✅ https://codeforces.com/problemset/problem/1382/B [Logic: 25Mins Reading: 3 Mins Ac: 32 Mins]
-97.https://codeforces.com/problemset/problem/1360/C
-98.https://codeforces.com/problemset/problem/1326/A
+97. ✅✅ https://codeforces.com/problemset/problem/1360/C [Ac: 10Mins]
+98. ✅✅ https://codeforces.com/problemset/problem/1326/A [Ac: 30Mins Issue: Just tried some fancy tric but didn't understand the proof.]
 99.https://codeforces.com/problemset/problem/1263/A
 100. ❌❌ https://codeforces.com/problemset/problem/1575/A [Issue: Had no idea about this type of problem before.]
 
