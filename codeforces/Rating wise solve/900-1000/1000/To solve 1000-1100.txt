@@ -91,8 +91,8 @@ CSES-Mathmatics ,Searching and sorting.
 87. ✅✅ https://codeforces.com/problemset/problem/1469/A [Ac: 40Mins]
 88. ❌❌ https://codeforces.com/problemset/problem/1463/A [Issue: Very much close to the idea but lack of patience again increased.]
 89. ✅✅ https://codeforces.com/problemset/problem/1455/C [Ac: 5mins]
-90.https://codeforces.com/problemset/problem/1450/B
-91.https://codeforces.com/problemset/problem/1447/B
+90. ✅✅ https://codeforces.com/problemset/problem/1450/B
+91. ❌❌ https://codeforces.com/problemset/problem/1447/B
 92. ❌❌ https://codeforces.com/problemset/problem/1438/B [Issue: Didn't understand or read the problem statement properly.]
 93. ❌❌ https://codeforces.com/problemset/problem/1430/C [Issue: Problem was easy but didn't tested well and has fear with div 2 c also .]
 94. ❌❌ https://codeforces.com/problemset/problem/1421/B [Issue: Pretty much close to the idea but didn't proof the solution carefully . Less comfortable with 2D array.]

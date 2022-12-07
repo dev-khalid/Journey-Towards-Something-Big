@@ -1,23 +1,31 @@
 #include<bits/stdc++.h>
 using namespace std;
+int dist(pair<int,int> &a,pair<int,int> &b) {
+    return abs(a.first-b.first) + abs(a.second-b.second);
+}
 int main() {
     int t;
     cin >> t;
     while(t--) {
-        vector<int> v(3);
-        cin >> v[0]>> v[1]>>v[2];
-        sort(v.begin(),v.end());
-        int sum = v[0]+v[1]+v[2];
-        if(sum%9!=0) {
-            cout << "NO\n";
-        } else {
-            int x = sum/9;
-            if(v[0]>=x) {
-                cout << "YES\n";
-            } else {
-                cout << "NO\n";
+        int n,k;
+        cin >> n >> k;
+        vector<pair<int,int>> v(n);
+        for(int i = 0; i < n; i++) {
+            cin >> v[i].first >> v[i].second;
+        }
+        bool found = false;
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+                if(dist(v[i],v[j])>k) {
+                    break;
+                } else {
+                    if(j==n-1) {
+                        found = true;
+                    }
+                }
             }
         }
+        cout << (found? 1: -1) << endl;
 
     }
 }
