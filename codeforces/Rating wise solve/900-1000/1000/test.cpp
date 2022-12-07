@@ -4,22 +4,20 @@ int main() {
     int t;
     cin >> t;
     while(t--) {
-        int n;
-        cin >> n;
-        vector<int> r(n);
-        for(int i = 0; i < n; i++) {
-            cin >> r[i];
+        vector<int> v(3);
+        cin >> v[0]>> v[1]>>v[2];
+        sort(v.begin(),v.end());
+        int sum = v[0]+v[1]+v[2];
+        if(sum%9!=0) {
+            cout << "NO\n";
+        } else {
+            int x = sum/9;
+            if(v[0]>=x) {
+                cout << "YES\n";
+            } else {
+                cout << "NO\n";
+            }
         }
-        int m;
-        cin >> m;
-        vector<int> b(m);
-        for(int i = 0; i < m; i++) {
-            cin >> b[i];
-        }
-        vector<int> dr(n+2,0);
-        vector<int> db(m+2,0);
-        for(int i = n-1; i >= 0; i--0 ) {
-            dr[i] += dr[i-1]+
-        }
+
     }
 }
