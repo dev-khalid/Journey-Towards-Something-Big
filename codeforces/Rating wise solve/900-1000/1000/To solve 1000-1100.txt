@@ -88,7 +88,7 @@ CSES-Mathmatics ,Searching and sorting.
 84. ✅✅ https://codeforces.com/problemset/problem/1473/B 
 85. ✅✅ https://codeforces.com/problemset/problem/1471/B
 86. ✅✅ https://codeforces.com/problemset/problem/1469/B
-87.https://codeforces.com/problemset/problem/1469/A
+87. ✅✅ https://codeforces.com/problemset/problem/1469/A [Ac: 40Mins]
 88.https://codeforces.com/problemset/problem/1463/A
 89.https://codeforces.com/problemset/problem/1455/C
 90.https://codeforces.com/problemset/problem/1450/B
