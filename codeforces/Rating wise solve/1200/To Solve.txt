@@ -1,5 +1,5 @@
 ✅✅1.https://codeforces.com/problemset/problem/1742/E [Ac: 30 Mins]
-2.https://codeforces.com/problemset/problem/1692/E
+❌❌2.https://codeforces.com/problemset/problem/1692/E [Issue: Dindn't think about the problem properly . Should have invest more time.]
 3.https://codeforces.com/problemset/problem/1671/C
 4.https://codeforces.com/problemset/problem/1613/C
 5.https://codeforces.com/problemset/problem/1354/B
