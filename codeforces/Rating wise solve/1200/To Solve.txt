@@ -2,7 +2,7 @@
 ❌❌2.https://codeforces.com/problemset/problem/1692/E [Issue: Didn't think about the problem properly . Should have invest more time.]
 ❌❌3.https://codeforces.com/problemset/problem/1671/C [Issue:Very much close to the idea.But i had though in a tough way.]
 4.https://codeforces.com/problemset/problem/1613/C
-5.https://codeforces.com/problemset/problem/1354/B
+✅✅5.https://codeforces.com/problemset/problem/1354/B [Ac: 20 Mins]
 6.https://codeforces.com/problemset/problem/1352/C
 7.https://codeforces.com/problemset/problem/1221/C
 8.https://codeforces.com/problemset/problem/1131/C
