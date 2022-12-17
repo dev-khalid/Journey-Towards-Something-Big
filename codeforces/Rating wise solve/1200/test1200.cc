@@ -3,16 +3,26 @@ using namespace std;
 typedef long long ll;
 int main()
 {
-    ll t;
-    cin>> t;
-    while(t--)
-    {
-        ll c,m,x;
-        cin >> c >> m >> x;
-        ll sum = c+m+x;
-        ll ans = sum/3;
-        ans = min(ans,c);
-        ans = min(ans,m);
-        cout << ans << endl;
-    }
+        int n;
+        cin >> n;
+        vector<int> v(n);
+        for(int i = 0; i < n; i++) {
+            cin >> v[i];
+        }
+        sort(v.begin(),v.end());
+        vector<int> other;
+        deque<int> d;
+        //if there is at least 2 elements then pick only one from that ...
+        for(int i = 0; i < n; i++) {
+             if(i&1) {
+                cout << v[i] << " ";
+             }
+             else {
+                d.push_front(v[i]);
+             }
+        }
+        for(auto it: d) {
+            cout << it << " ";
+        }
+        cout << endl;
 }

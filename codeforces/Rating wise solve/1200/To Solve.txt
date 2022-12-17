@@ -5,7 +5,7 @@
 ✅✅5.https://codeforces.com/problemset/problem/1354/B [Ac: 20 Mins]
 ✅✅6.https://codeforces.com/problemset/problem/1352/C [Ac: 17Mins]
 ✅✅7.https://codeforces.com/problemset/problem/1221/C [Ac: 14Mins]
-8.https://codeforces.com/problemset/problem/1131/C
+❌❌8.https://codeforces.com/problemset/problem/1131/C [(Issue: Very close to the idea)]
 9.https://codeforces.com/problemset/problem/1100/C
 10.https://codeforces.com/problemset/problem/1011/B
 11.https://codeforces.com/problemset/problem/1006/C
