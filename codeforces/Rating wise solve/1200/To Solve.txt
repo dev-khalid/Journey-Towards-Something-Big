@@ -1,10 +1,10 @@
 ✅✅1.https://codeforces.com/problemset/problem/1742/E [Ac: 30 Mins]
 ❌❌2.https://codeforces.com/problemset/problem/1692/E [Issue: Didn't think about the problem properly . Should have invest more time.]
 ❌❌3.https://codeforces.com/problemset/problem/1671/C [Issue:Very much close to the idea.But i had though in a tough way.]
-4.https://codeforces.com/problemset/problem/1613/C [Attempt: 16/12/2022 . Second attempt tomorrow.]
+❌❌4.https://codeforces.com/problemset/problem/1613/C [Attempt: 16/12/2022 . Second attempt: 17/12/2022. Need to work more with div 2 C. Easy implementation but approached it with pure mathmatics.]
 ✅✅5.https://codeforces.com/problemset/problem/1354/B [Ac: 20 Mins]
-6.https://codeforces.com/problemset/problem/1352/C
-7.https://codeforces.com/problemset/problem/1221/C
+✅✅6.https://codeforces.com/problemset/problem/1352/C [Ac: 17Mins]
+✅✅7.https://codeforces.com/problemset/problem/1221/C [Ac: 14Mins]
 8.https://codeforces.com/problemset/problem/1131/C
 9.https://codeforces.com/problemset/problem/1100/C
 10.https://codeforces.com/problemset/problem/1011/B
