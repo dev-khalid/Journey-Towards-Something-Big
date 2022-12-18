@@ -1,50 +1,47 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+ll power(ll base)
+{
+    ll ans = 1;
+    while(base--)
+    {
+        ans*=2LL;
+    }
+    return ans;
+}
 int main()
 {
-    int n;
-    cin >> n;
-    vector<ll> v(n);
-    vector<long long> pref(n,0);
-    vector<long long> rpref(n,0);
-    for(int i = 0; i < n; i++)
+    while(1)
     {
-        cin >> v[i];
-        if(i==0)
+        ll n,k;
+        cin >> n >> k;
+        //n jai hok na ken k er value oitai hobe ?
+        if(k%4==1 || k%4==3)
         {
-            pref[i] = v[i];
+            cout << 1 << endl;
+        }
+        else if(k%4==2)
+        {
+            cout << 2 << endl;
         }
         else
         {
-            pref[i] = pref[i-1]+v[i];
-        }
-    }
-    for(int i = n-1; i >=0; i--)
-    {
-        if(i==n-1)
-        {
-            rpref[i] = v[i];
-        }
-        else
-            rpref[i] = rpref[i+1] + v[i];
-    }
-    reverse(rpref.begin(),rpref.end());
-    long long ans = 0;
-    for(int i = 0; i < n; i++)
-    {
-        ll target = pref[i];
-        int lb = lower_bound(rpref.begin(),rpref.end(),target)-rpref.begin();
-
-        if(binary_search(rpref.begin(),rpref.end(),target))
-        {
-            int id = n-lb-1;
-            //cout << "lb and real_id: " << lb << " "<< id << endl;
-            if(id>i)
+            ll base = log2(k);
+            ll dif;
+            ll prevK = k;
+            while(1)
             {
-                ans = max(ans,pref[i]);
+
+                dif = prevK-power(base);
+                if(dif==0)
+                {
+                    cout << base + 1LL << endl;
+                    break;
+                }
+                prevK = dif;
+                base = log2(dif);
             }
         }
     }
-    cout << ans << endl;
 }
