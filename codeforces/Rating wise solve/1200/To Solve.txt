@@ -10,7 +10,7 @@
 ⌚⌚10.https://codeforces.com/problemset/problem/1011/B
 ✅✅11.https://codeforces.com/problemset/problem/1006/C [Ac: 20Mins]
 ✅✅12.https://codeforces.com/problemset/problem/743/B [Ac: 45Mins]
-13.https://codeforces.com/problemset/problem/732/C
+✅✅13.https://codeforces.com/problemset/problem/732/C [Ac: 20Mins]
 14.https://codeforces.com/problemset/problem/492/B
 15.https://codeforces.com/problemset/problem/474/B
 16.https://codeforces.com/problemset/problem/302/B

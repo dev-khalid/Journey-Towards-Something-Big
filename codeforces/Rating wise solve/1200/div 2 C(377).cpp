@@ -18,3 +18,4 @@ int main()
     ans = calc(v[1],v[2]) + calc(v[0],v[2]);
     cout << ans << endl;
 }
+
