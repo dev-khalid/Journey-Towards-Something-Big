@@ -13,7 +13,7 @@
 ✅✅13.https://codeforces.com/problemset/problem/732/C [Ac: 20Mins]
 ✅✅14.https://codeforces.com/problemset/problem/492/B 
 ✅✅15.https://codeforces.com/problemset/problem/474/B
-16.https://codeforces.com/problemset/problem/302/B
+✅✅16.https://codeforces.com/problemset/problem/302/B
 ✅✅17.https://codeforces.com/problemset/problem/424/B
 https://codeforces.com/problemset/problem/1744/D
 https://codeforces.com/problemset/problem/1738/B
