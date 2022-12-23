@@ -3,26 +3,56 @@ using namespace std;
 typedef long long ll;
 int main()
 {
-    int n;
-    cin >> n;
-    vector<ll> a(n,0);
-    for(int i = 0; i < n; i++)
+    int t;
+    cin >> t;
+    while(t--)
     {
-        cin >> a[i];
-        if(i>0)
+        int n,k;
+        cin >> n >> k;
+        vector<ll> v(k);
+        int prev, curr;
+        for(int i = 0; i < k; i++)
         {
-            a[i]+= a[i-1];
+            cin >> curr;
+            if(i==0)
+            {
+                v[i] = curr;
+            }
+            else
+            {
+                v[i] = curr-prev;
+            }
+            prev = curr;
         }
-    }
-    int m;
-    cin >> m;
-    while(m--)
-    {
-        ll q;
-        cin >> q;
+        if(k==1)
+        {
+            cout << "YES\n";
+            continue;
+        }
+        int need = n-k+1;
+        if(!is_sorted(v.begin()+1,v.end()))
+        {
+            cout << "NO\n";
+            continue;
+        }
+        if(v[0]>0)
+        {
+            //v[0] = (v[0]-1)/need + 1LL;
+            //cout << "After distribution: " << v[0] << endl;
+            if(v[0]>v[1]*need) {
+                cout << "NO\n";
+                continue;
+            }
+        }
+        cout << "YES\n";
 
-        ll lb = lower_bound(a.begin(),a.end(),q)-a.begin();
-        lb++;
-        cout << lb << endl;
     }
 }
+
+/*
+cout << "Vector: ";
+        for(auto it: v) {
+            cout << it << " ";
+        }
+        cout << endl;
+*/
