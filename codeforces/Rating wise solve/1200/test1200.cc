@@ -7,44 +7,29 @@ int main()
     cin >> t;
     while(t--)
     {
-        int n,k;
-        cin >> n >> k;
-        vector<ll> v(k);
-        int prev, curr;
-        for(int i = 0; i < k; i++)
-        {
-            cin >> curr;
-            if(i==0)
-            {
-                v[i] = curr;
-            }
-            else
-            {
-                v[i] = curr-prev;
-            }
-            prev = curr;
-        }
-        if(k==1)
-        {
-            cout << "YES\n";
-            continue;
-        }
-        int need = n-k+1;
-        if(!is_sorted(v.begin()+1,v.end()))
-        {
-            cout << "NO\n";
-            continue;
-        }
-        if(v[0]>0)
-        {
-            //v[0] = (v[0]-1)/need + 1LL;
-            //cout << "After distribution: " << v[0] << endl;
-            if(v[0]>v[1]*need) {
-                cout << "NO\n";
-                continue;
+        int n;
+        cin >> n;
+        vector<ll> v(n);
+        vector<ll> val(n+1);
+        for(int i = 0; i < n; i++) {
+            cin >> v[i];
+            if(i>0) {
+                val[i]=v[i]*v[i-1];
+            } else {
+                val[i] = v[i];
             }
         }
-        cout << "YES\n";
+        val[n] = v[n-1];
+        bool ans = true;
+        for(int i = 0; i < n; i++) {
+            int g = __gcd(val[i],val[i+1]);
+            //cout << "Gcd (" << val[i] << "," << val[i+1] << ") = " << g << endl;
+            if(g!=v[i]) {
+                ans = false;
+                break;
+            }
+        }
+        cout << (ans?"YES\n":"NO\n");
 
     }
 }
