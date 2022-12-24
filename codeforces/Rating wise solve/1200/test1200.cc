@@ -9,35 +9,61 @@ int main()
     {
         int n;
         cin >> n;
-        vector<ll> v(n);
-        vector<ll> val(n+1);
-        for(int i = 0; i < n; i++) {
+        vector<char> v(n+1);
+        ll cnt = 0;
+        for(int i = 1; i <= n; i++)
+        {
             cin >> v[i];
-            if(i>0) {
-                val[i]=v[i]*v[i-1];
-            } else {
-                val[i] = v[i];
-            }
+            if(v[i]=='0') cnt++;
         }
-        val[n] = v[n-1];
-        bool ans = true;
-        for(int i = 0; i < n; i++) {
-            int g = __gcd(val[i],val[i+1]);
-            //cout << "Gcd (" << val[i] << "," << val[i+1] << ") = " << g << endl;
-            if(g!=v[i]) {
-                ans = false;
-                break;
-            }
-        }
-        cout << (ans?"YES\n":"NO\n");
+        ll ans = 0;
+        int i = 1;
+        for(; i <= n && cnt; i++)
+        {
+            if(v[i]=='2')
+            {
+                //cout << "Starting from: " << i << " value: " << v[i] << endl;
+                //start a loop from here
+                int j = i+i;
+                while(j<=n && v[j]=='0')
+                {
+                    //cout << "v["<<j<<"]="<<v[j] << " , ";
+                    v[j]='2';
+                    j+=i;
+                    cnt--;
+                    ans+=i;
+                }
+                //cout << endl;
 
+                //cout << "Ans in this segment : " << ans << "\nCount of zero in this segment: "<< cnt << endl;
+            }
+            if(v[i]=='0')
+            {
+                int j = i;
+
+                //cout << "Starting from: " << i << " value: " << v[i] << endl;
+                while(j<=n && v[j]=='0')
+                {
+
+                    //cout << "v["<<j<<"]="<<v[j] << " , ";
+                    ans+=i;
+                    v[j]='2';
+                    j+=i;
+                    cnt--;
+                }
+                //cout << endl;
+                //cout << "Ans in this segment : " << ans << "\nCount of zero in this segment: "<< cnt << endl;
+            }
+
+        }
+        cout << ans << endl;
     }
 }
 
 /*
-cout << "Vector: ";
-        for(auto it: v) {
-            cout << it << " ";
-        }
-        cout << endl;
+100
+10
+1000010000
+10
+0000010001
 */
