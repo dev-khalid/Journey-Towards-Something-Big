@@ -20,7 +20,7 @@
 ❌❌https://codeforces.com/problemset/problem/1736/B [I was close to the idea. Need to think for a little bit more time.]
 ✅✅https://codeforces.com/problemset/problem/1734/C [Took lots of struggle to manage this.]
 ✅✅https://codeforces.com/problemset/problem/1730/C
-https://codeforces.com/problemset/problem/1713/C
+❌❌https://codeforces.com/problemset/problem/1713/C
 https://codeforces.com/problemset/problem/1704/C
 https://codeforces.com/problemset/problem/1598/C
 https://codeforces.com/problemset/problem/1594/C
