@@ -72,9 +72,10 @@ int main()
             }
             else
             {
-                cout << 
+                cout << 1 << "\n" << el << endl;
             }
         }
     }
 }
+
 

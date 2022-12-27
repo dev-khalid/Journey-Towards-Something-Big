@@ -1,12 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-int xFinder(int n) {
-    int down = sqrt(n-1)+1;
-    int nearestFullSquare = down*down;
-    int need = nearestFullSquare-n;
-    return need;
-}
 int main()
 {
     int t;
@@ -15,31 +9,72 @@ int main()
     {
         int n;
         cin >> n;
-        //now solve for n
-        int prevN = n;
-        vector<int> v;
-        while(1) {
-            int x = xFinder(prevN-1);
-            if(x==0) {
-                for(int i = 0; i < prevN; i++) {
-                    v.push_back(i);
+        char c;
+        cin >> c;
+        vector<char> s(n+1);
+        unordered_map<int,int> bad;
+        vector<int>good;
+
+        for(int i = 1; i <= n; i++)
+        {
+            cin >> s[i];
+            if(s[i]==c)
+            {
+                good.push_back(i);
+            }
+            else
+            {
+                bad[i]++;
+            }
+        }
+        if(good.size()==0)
+        {
+            //all are vejal
+            cout << 2 << endl;
+            cout << n-1 << " " << n << endl;
+
+        }
+        else if(good.size()==n)
+        {
+            cout << 0 << endl;
+        }
+        else
+        {
+            //trying to minimize this .
+            //trying to making this as one
+            bool found = false;
+            int el = -1;
+            for(auto it: good)
+            {
+                int x = it;
+                bool broken = false;
+                while(x<=n)
+                {
+                    if(bad[x])
+                    {
+                        broken = true;
+                        break;
+                    }
+                    x+=it;
                 }
-                break;
+                if(!broken)
+                {
+                    found = true;
+                    el = it;
+                    break;
+                }
             }
-            int y = x;
-            while(x<prevN) {
-                v.push_back(x++);
+            if(!found)
+            {
+
+                cout << 2 << endl;
+                cout << n-1 << " " << n << endl;
             }
-            prevN = y;
-
-
-            //cout << "working: " << prevN << endl;
+            else
+            {
+                cout << 1 << "\n" << el << endl;
+            }
         }
-        reverse(v.begin(),v.end());
-        for(auto it: v) {
-            cout << it << " ";
-        }
-        cout << endl;
     }
 }
 
