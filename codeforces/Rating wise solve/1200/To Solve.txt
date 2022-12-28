@@ -24,7 +24,7 @@
 ❌❌https://codeforces.com/problemset/problem/1704/C
 ✅✅https://codeforces.com/problemset/problem/1598/C [Took the help of testcases.]
 ✅✅https://codeforces.com/problemset/problem/1594/C
-https://codeforces.com/problemset/problem/1592/B
+✅✅https://codeforces.com/problemset/problem/1592/B
 https://codeforces.com/problemset/problem/1581/B
 https://codeforces.com/problemset/problem/1578/E
 https://codeforces.com/problemset/problem/1553/C
