@@ -11,37 +11,79 @@ int main()
     {
         int n;
         cin >> n;
-        unordered_map<int,int> mp;
-        for(int i = 1; i <= n; i++)
+        vector<int> v(n);
+        for(auto &it: v)
         {
-            int el;
-            cin >> el;
-            mp[el] = i;
+            cin >> it;
         }
-        int ans = 0;
-
-        for(int i = 1; i <= n; i++)
+        sort(v.begin(),v.end());
+        //find smallest duplicate pair
+        int dif = INT_MAX;
+        int d1,d2;
+        int p1,p2; //these are the pointers for final ans;
+        for(int i = 1; i < n; i++)
         {
-            if(mp[i])
+            if(v[i]-v[i-1]<dif)
             {
-                //cout << i << " Position : " << mp[i] << endl;
-                int limit = (2*n)/i;
-                //cout << "Search Limit: " << limit << endl;
-                for(int j = 1; j <= limit; j++)
+                d2=v[i];
+                d1=v[i-1];
+                dif=d2-d1;
+                p1=i,p2=i-1;
+            }
+
+        }
+        v[p1] = 0,v[p2] = 0;
+
+        cout << d1 << " ";
+
+        if(n==4)
+        {
+            int l1=0,l2;
+            for(auto it: v)
+            {
+                if(it && l1)
                 {
-                    if(mp[j]) {
-                        //cout << j << " Exists at Pos: " << mp[j] << endl;
-                        //if the corresponding element found then
-                        if(mp[i]+mp[j] == i*j && mp[i]!=mp[j]) {
-                            //cout << "\nMatched at Position : " << mp[i] << " " << mp[j] << "\n";
-                            ans++;
-                        }
-                    }
+                    l2 = it;
                 }
-                mp[i] = 0;
+                else if(it && !l1)
+                {
+                    l1 = it;
+                }
+            }
+            vector<int> v1 = {d1,l1,l2, d2};
+            int hard1 = 0,hard2=0;
+            for(int i = 1; i < n; i++)
+            {
+                if(v1[i]>=v1[i-1])
+                {
+                    hard1++;
+                }
+            }
+            vector<int> v2 = {d1,l2,l1,d1};
+            for(int i = 1; i < n; i++)
+            {
+                if(v2[i]>=v2[i-1])
+                {
+                    hard2++;
+                }
+            }
+            if(hard1>hard2)
+            {
+                cout << l1 << " " << l2 << " " ;
+            }
+            else
+            {
+                cout << l2 << " " << l1 << " " ;
             }
         }
-        cout << ans << endl;
+        else
+        {
+            for(auto it: v)
+            {
+                if(it) cout << it << " ";
+            }
+        }
+        cout << d2 << endl;
     }
 }
 /**
@@ -50,3 +92,4 @@ int main()
 5 6 2 1 4
 
 **/
+//easy pro
