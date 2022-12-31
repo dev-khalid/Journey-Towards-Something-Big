@@ -31,7 +31,7 @@
 ❌❌https://codeforces.com/problemset/problem/1546/B
 ✅✅https://codeforces.com/problemset/problem/1541/B [Ac: 1h30Mins]
 ❌❌https://codeforces.com/problemset/problem/1537/C [Didn't think enough to find the solution! Easy one]
-https://codeforces.com/problemset/problem/1520/D
+✅✅https://codeforces.com/problemset/problem/1520/D 
 https://codeforces.com/problemset/problem/1514/B
 https://codeforces.com/problemset/problem/1504/B
 https://codeforces.com/problemset/problem/1497/C1

@@ -37,3 +37,4 @@ int main()
 
 **/
 //easy problem but couldn't get to the solution
+
