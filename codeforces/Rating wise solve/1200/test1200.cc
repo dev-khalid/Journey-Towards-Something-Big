@@ -2,38 +2,29 @@
 using namespace std;
 typedef long long ll;
 typedef __int128 i128;
-ll calc(ll n) {
-    if(n&1) {
-        return (n-1LL)/2LL*n;
-    } else {
-        return n/2LL*(n-1);
+const ll MOD=1e9+7;
+ll permutation(ll n) {
+    ll result = 1LL;
+    for(ll i = 1; i <= n; i++) {
+        result*=i;
+        result%=MOD;
     }
+    return result;
 }
 int main()
 {
     int t;
     cin >> t;
-    while(t--)
-    {
-        int n;
-        cin >> n;
-        int x;
-        map<ll,ll> mp;
-        for(int i = 1; i <= n; i++) {
-            cin >> x;
-            mp[x-i]++;
-        }
-        ll ans = 0;
-        for(auto it: mp) {
-            ans+=calc(it.second);
-        }
-        cout << ans << endl;
+    while(t--) {
+        ll n,k;
+        cin >> n >> k;
+        ll x,y,z;
+        x = (1LL<<(k-1))-1LL;
+        y = x+1LL;
+        z = (1LL<<k)-1LL;
+        cout << permutation(20) << endl;
     }
 }
 /**
-100
-5
-5 6 2 1 4
-
 **/
 //easy problem but couldn't get to the solution
