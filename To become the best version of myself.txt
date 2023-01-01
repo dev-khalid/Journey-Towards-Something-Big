@@ -6,5 +6,7 @@ Next.js [2 Month]
 GraphQL [2 Month]
 More about Postgresql [2 Month]
 Firebase (Frontend Focused!) [2 Month]
+CI/CD 
+TESTS
 #####This is my Best of myself!#####
 For completing all those things it will not take me more than 3 Months of patience practice!
