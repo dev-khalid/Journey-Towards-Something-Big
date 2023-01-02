@@ -1,80 +1,42 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+typedef __int128 i128;
+const ll MOD=1e9+7;
+
 int main()
 {
     int t;
     cin >> t;
     while(t--)
     {
-        int n;
-        cin >> n;
-        char c;
-        cin >> c;
-        vector<char> s(n+1);
-        unordered_map<int,int> bad;
-        vector<int>good;
-
-        for(int i = 1; i <= n; i++)
+        int n,k;
+        cin >> n >> k;
+        if(n&1)
         {
-            cin >> s[i];
-            if(s[i]==c)
-            {
-                good.push_back(i);
-            }
-            else
-            {
-                bad[i]++;
-            }
+            cout << n/2 << " " << n/2 << " " << 1 << endl;
         }
-        if(good.size()==0)
+        else if(n%3==0)
         {
-            //all are vejal
-            cout << 2 << endl;
-            cout << n-1 << " " << n << endl;
-
-        }
-        else if(good.size()==n)
-        {
-            cout << 0 << endl;
+            cout << n/3 << " " << n/3 << " " << n/3 << endl;
         }
         else
         {
-            //trying to minimize this .
-            //trying to making this as one
-            bool found = false;
-            int el = -1;
-            for(auto it: good)
+            int el = n/2-1;
+            int add = 2;
+            for(; el>=1; el--)
             {
-                int x = it;
-                bool broken = false;
-                while(x<=n)
+                if(el%add==0||add%el==0)
                 {
-                    if(bad[x])
-                    {
-                        broken = true;
-                        break;
-                    }
-                    x+=it;
-                }
-                if(!broken)
-                {
-                    found = true;
-                    el = it;
                     break;
                 }
+                if(add*2+el==n && (add%el==0 || el%add==0)) {
+                    swap(el,add);
+                    break;
+                }
+                add+=2;
             }
-            if(!found)
-            {
-
-                cout << 2 << endl;
-                cout << n-1 << " " << n << endl;
-            }
-            else
-            {
-                cout << 
-            }
+            cout << el << " " << el << " " << add << endl;
         }
     }
-}
-
+} 

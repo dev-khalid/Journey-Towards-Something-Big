@@ -4,49 +4,39 @@ typedef long long ll;
 typedef __int128 i128;
 const ll MOD=1e9+7;
 
-ll factorial(ll n)
-{
-    ll result = 1LL;
-    for(ll i = 1; i <= n; i++)
-    {
-        result*=i;
-        result%=MOD;
-    }
-    return result;
-}
-ll permutation(ll n,ll r) {
-    ll result = 1LL;
-    ll limit = n-r;
-    for(; n > limit; n--) {
-        result*=n;
-        result%=MOD;
-    }
-    return result;
-}
 int main()
 {
     int t;
     cin >> t;
     while(t--)
     {
-        ll n,k;
+        int n,k;
         cin >> n >> k;
-        ll ans=0LL;
-        ans += permutation(n,1LL);
-        ll k2 = 1LL<<k;
-        k2/=2LL;
-
-        ll perm2 = permutation(n,2LL);
-        cout << ans << ": " << perm2 << endl;
-        for(int i = 0; i+1 < k2; i++) {
-            ans+=perm2;
-            ans%=MOD;
+        if(n&1)
+        {
+            cout << n/2 << " " << n/2 << " " << 1 << endl;
         }
-
-        cout << ans << endl;
-
+        else if(n%3==0)
+        {
+            cout << n/3 << " " << n/3 << " " << n/3 << endl;
+        }
+        else
+        {
+            int el = n/2-1;
+            int add = 2;
+            for(; el>=1; el--)
+            {
+                if(el%add==0||add%el==0)
+                {
+                    break;
+                }
+                if(add*2+el==n && (add%el==0 || el%add==0)) {
+                    swap(el,add);
+                    break;
+                }
+                add+=2;
+            }
+            cout << el << " " << el << " " << add << endl;
+        }
     }
 }
-/**
-**/
-//easy problem but couldn't get to the solution
