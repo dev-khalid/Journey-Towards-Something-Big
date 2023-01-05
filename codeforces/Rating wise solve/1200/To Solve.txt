@@ -61,7 +61,7 @@ https://codeforces.com/problemset/problem/794/B
 
 
 Section: Binary Search 
-1.https://leetcode.com/problems/search-in-rotated-sorted-array-ii
+1.❌❌https://leetcode.com/problems/search-in-rotated-sorted-array-ii
 2.https://leetcode.com/problems/search-a-2d-matrix-ii
 3.https://leetcode.com/problems/h-index-ii
 4.https://leetcode.com/problems/longest-increasing-subsequence
