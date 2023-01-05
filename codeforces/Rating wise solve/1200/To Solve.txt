@@ -36,7 +36,7 @@
 ✅✅https://codeforces.com/problemset/problem/1504/B
 ❌❌https://codeforces.com/problemset/problem/1497/C1 [Very close to the idea but couldn't come up with the actual solution. tle]
 ✅✅https://codeforces.com/problemset/problem/1495/A
-https://codeforces.com/problemset/problem/1490/D
+✅✅https://codeforces.com/problemset/problem/1490/D
 https://codeforces.com/problemset/problem/1487/B
 https://codeforces.com/problemset/problem/1472/D
 https://codeforces.com/problemset/problem/1455/B
@@ -83,10 +83,29 @@ Section: Binary Search
 20.https://leetcode.com/problems/split-message-based-on-limit
 
 Section: Number Theory
+1.https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+2.https://leetcode.com/problems/count-primes/
+3.https://leetcode.com/problems/ugly-number-iii/
+4.https://leetcode.com/problems/check-if-it-is-a-good-array/
+5.https://leetcode.com/problems/simplified-fractions/
+6.https://leetcode.com/problems/count-ways-to-make-array-with-product/
+7.https://leetcode.com/problems/maximize-score-after-n-operations/
+8.https://leetcode.com/problems/number-of-different-subsequences-gcds/
+9.https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/
+10.https://leetcode.com/problems/count-array-pairs-divisible-by-k/
+11.https://leetcode.com/problems/replace-non-coprime-numbers-in-array/
+12.https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/
+13.https://leetcode.com/problems/count-the-number-of-ideal-arrays/
+14.https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/
+15.https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/
+16.https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/
+17.https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/
+18.https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/
+19.https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/
+20.https://leetcode.com/problems/closest-prime-numbers-in-range/
 
-Section: Math
+Section: Dynamic Programming(Minumum-100 Problems from here)
 
-Section: Dynamic Programming
 
 Section: Div 2 C Tutorials.
 1.https://www.youtube.com/watch?v=b2OTHUSDmlg
@@ -97,3 +116,4 @@ Section: Div 2 C Tutorials.
 6.https://www.youtube.com/watch?v=pw9fMVdpYd0
 
 ⌚⌚ -> Means I will retry it later on . 
+⚡⚡Need to make all the red and clock marks to green before leaving this list.
