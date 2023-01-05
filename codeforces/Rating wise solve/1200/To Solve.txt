@@ -83,7 +83,7 @@ Section: Binary Search
 20.https://leetcode.com/problems/split-message-based-on-limit
 
 Section: Number Theory
-1.https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+1.✅✅https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 2.https://leetcode.com/problems/count-primes/
 3.https://leetcode.com/problems/ugly-number-iii/
 4.https://leetcode.com/problems/check-if-it-is-a-good-array/
