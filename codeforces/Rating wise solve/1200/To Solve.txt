@@ -37,7 +37,7 @@
 ❌❌https://codeforces.com/problemset/problem/1497/C1 [Very close to the idea but couldn't come up with the actual solution. tle]
 ✅✅https://codeforces.com/problemset/problem/1495/A
 ✅✅https://codeforces.com/problemset/problem/1490/D
-✅✅https://codeforces.com/problemset/problem/1487/B
+✅✅https://codeforces.com/problemset/problem/1487/B [issue: perfectly came up with the idea but c++ inner problem of counting numbers.]
 https://codeforces.com/problemset/problem/1472/D
 https://codeforces.com/problemset/problem/1455/B
 https://codeforces.com/problemset/problem/1420/B
