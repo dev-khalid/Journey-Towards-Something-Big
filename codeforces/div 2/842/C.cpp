@@ -1,4 +1,3 @@
-
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -46,7 +45,9 @@ int main()
                 unused.push_back(i);
             }
         }
+        sort(doubles.begin(),doubles.end());
         sort(unused.begin(),unused.end());
+
         if(unused.size()!=doubles.size())
         {
             cout << "NO\n";
@@ -54,41 +55,39 @@ int main()
         }
         vector<int> someFixedValues(n+1,0);
         vector<bool> mark(n+1,false);
+        for(int i = 0; i < doubles.size(); i++)
+        {
+            if(doubles[i]<unused[i])
+            {
+                vejal = true;
+                break;
+            }
+            else
+            {
+                someFixedValues[doubles[i]] = unused[i];
+
+            }
+        }
+        if(vejal)
+        {
+            cout << "NO\n";
+            continue;
+        }
         for(int i = 0; i < n; i++)
         {
             int el = v[i];
             if(index[el]==2)
             {
-                if(someFixedValues[el])
+                if(!mark[el])
                 {
                     p.push_back(el);
                     q.push_back(someFixedValues[el]);
 
-                    continue;
-                }
-                int id = lower_bound(unused.begin(),unused.end(),el)-unused.begin()-1;
-                if(id>=0 && id<unused.size())
-                {
-                    //brute force !
-                    while(id>=0 && mark[unused[id]]==true)
-                    {
-                        id--;
-                    }
-                    if(id==-1)
-                    {
-                        vejal = true;
-                        break;
-                    }
-                    mark[unused[id]] = true;
-                    someFixedValues[el] = unused[id];
-                    p.push_back(someFixedValues[el]);
-                    q.push_back(el);
-                    mark[el] = true;
                 }
                 else
                 {
-                    vejal = true;
-                    break;
+                    p.push_back(someFixedValues[el]);
+                    q.push_back(el);
                 }
             }
             else if(index[el]==1)
@@ -96,6 +95,7 @@ int main()
                 p.push_back(el);
                 q.push_back(el);
             }
+            mark[el] = true;
         }
         if(vejal)
         {
