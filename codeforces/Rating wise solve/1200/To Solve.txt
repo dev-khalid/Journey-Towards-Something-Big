@@ -15,50 +15,41 @@
 ✅✅15.https://codeforces.com/problemset/problem/474/B
 ✅✅16.https://codeforces.com/problemset/problem/302/B
 ✅✅17.https://codeforces.com/problemset/problem/424/B
-❌❌https://codeforces.com/problemset/problem/1744/D 
-❌❌https://codeforces.com/problemset/problem/1738/B [I was very close to the idea]
-❌❌https://codeforces.com/problemset/problem/1736/B [I was close to the idea. Need to think for a little bit more time.]
-✅✅https://codeforces.com/problemset/problem/1734/C [Took lots of struggle to manage this.]
-✅✅https://codeforces.com/problemset/problem/1730/C
-❌❌https://codeforces.com/problemset/problem/1713/C
-❌❌https://codeforces.com/problemset/problem/1704/C
-✅✅https://codeforces.com/problemset/problem/1598/C [Took the help of testcases.]
-✅✅https://codeforces.com/problemset/problem/1594/C
-✅✅https://codeforces.com/problemset/problem/1592/B
-
-❌❌https://codeforces.com/problemset/problem/1578/E
-✅✅https://codeforces.com/problemset/problem/1553/C
-❌❌https://codeforces.com/problemset/problem/1546/B
-✅✅https://codeforces.com/problemset/problem/1541/B [Ac: 1h30Mins]
-❌❌https://codeforces.com/problemset/problem/1537/C [Didn't think enough to find the solution! Easy one]
-✅✅https://codeforces.com/problemset/problem/1520/D 
-❌❌https://codeforces.com/problemset/problem/1514/B
-✅✅https://codeforces.com/problemset/problem/1504/B
-❌❌https://codeforces.com/problemset/problem/1497/C1 [Very close to the idea but couldn't come up with the actual solution. tle]
-✅✅https://codeforces.com/problemset/problem/1495/A
-✅✅https://codeforces.com/problemset/problem/1490/D
-✅✅https://codeforces.com/problemset/problem/1487/B [issue: perfectly came up with the idea but c++ inner problem of counting numbers.]
-✅✅https://codeforces.com/problemset/problem/1472/D [Ac: 30Mins]
-❌❌https://codeforces.com/problemset/problem/1455/B [Lack of patientce and concentration . As i am coming back to cp after 5 months this is ok to happen!]
-https://codeforces.com/problemset/problem/1420/B
-https://codeforces.com/problemset/problem/1419/B
-https://codeforces.com/problemset/problem/1409/C
-https://codeforces.com/problemset/problem/1406/B
-https://codeforces.com/problemset/problem/1371/B
-https://codeforces.com/problemset/problem/1364/A
-https://codeforces.com/problemset/problem/1363/A
-https://codeforces.com/problemset/problem/1355/B
-https://codeforces.com/problemset/problem/961/B 
-https://codeforces.com/problemset/problem/998/B
-https://codeforces.com/problemset/problem/1017/B
-https://codeforces.com/problemset/problem/1029/B
-https://codeforces.com/problemset/problem/1027/B
-https://codeforces.com/problemset/problem/1028/B 
-https://codeforces.com/problemset/problem/875/A
-https://codeforces.com/problemset/problem/854/B
-https://codeforces.com/problemset/problem/817/A
-https://codeforces.com/problemset/problem/794/B
-
+❌❌18 https://codeforces.com/problemset/problem/1744/D 
+❌❌19 https://codeforces.com/problemset/problem/1738/B [I was very close to the idea]
+❌❌20.https://codeforces.com/problemset/problem/1736/B [I was close to the idea. Need to think for a little bit more time.]
+✅✅21.https://codeforces.com/problemset/problem/1734/C [Took lots of struggle to manage this.]
+✅✅22.https://codeforces.com/problemset/problem/1730/C
+❌❌23.https://codeforces.com/problemset/problem/1713/C
+❌❌24.https://codeforces.com/problemset/problem/1704/C
+✅✅25.https://codeforces.com/problemset/problem/1598/C [Took the help of testcases.]
+✅✅26.https://codeforces.com/problemset/problem/1594/C
+✅✅27.https://codeforces.com/problemset/problem/1592/B
+❌❌28.https://codeforces.com/problemset/problem/1578/E
+✅✅29.https://codeforces.com/problemset/problem/1553/C
+❌❌30.https://codeforces.com/problemset/problem/1546/B
+✅✅31.https://codeforces.com/problemset/problem/1541/B [Ac: 1h30Mins]
+❌❌32.https://codeforces.com/problemset/problem/1537/C [Didn't think enough to find the solution! Easy one]
+✅✅33.https://codeforces.com/problemset/problem/1520/D 
+❌❌34.https://codeforces.com/problemset/problem/1514/B
+✅✅35.https://codeforces.com/problemset/problem/1504/B
+❌❌36.https://codeforces.com/problemset/problem/1497/C1 [Very close to the idea but couldn't come up with the actual solution. tle]
+✅✅37.https://codeforces.com/problemset/problem/1495/A
+✅✅38.https://codeforces.com/problemset/problem/1490/D
+✅✅39.https://codeforces.com/problemset/problem/1487/B [issue: perfectly came up with the idea but c++ inner problem of counting numbers.]
+✅✅40.https://codeforces.com/problemset/problem/1472/D [Ac: 30Mins]
+❌❌41.https://codeforces.com/problemset/problem/1455/B [Lack of patientce and concentration . As i am coming back to cp after 5 months this is ok to happen!]
+✅✅42.https://codeforces.com/problemset/problem/1420/B
+43.https://codeforces.com/problemset/problem/1822/D
+44.https://codeforces.com/problemset/problem/1808/B
+45.https://codeforces.com/problemset/problem/1800/D
+46.https://codeforces.com/problemset/problem/1799/B
+47.https://codeforces.com/problemset/problem/1793/C
+48.https://codeforces.com/problemset/problem/1792/B
+49.https://codeforces.com/problemset/problem/1790/D
+50.https://codeforces.com/problemset/problem/1769/C1
+51.https://codeforces.com/problemset/problem/1763/B
+52.https://codeforces.com/problemset/problem/1747/C
 
 Section: Binary Search 
 1.❌❌https://leetcode.com/problems/search-in-rotated-sorted-array-ii
